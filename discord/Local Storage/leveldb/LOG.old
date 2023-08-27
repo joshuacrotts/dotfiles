@@ -1,0 +1,14 @@
+2023/08/26-20:24:39.406 136f Reusing MANIFEST /home/joshuacrotts/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/08/26-20:24:39.406 136f Recovering log #38
+2023/08/26-20:24:39.413 136f Level-0 table #41: started
+2023/08/26-20:24:39.421 136f Level-0 table #41: 1873775 bytes OK
+2023/08/26-20:24:39.422 136f Delete type=0 #38
+2023/08/26-20:24:39.422 1358 Compacting 4@0 + 1@1 files
+2023/08/26-20:24:39.437 1358 Generated table #43@0: 43 keys, 1874844 bytes
+2023/08/26-20:24:39.437 1358 Compacted 4@0 + 1@1 files => 1874844 bytes
+2023/08/26-20:24:39.438 1358 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/26-20:24:39.438 1358 Delete type=2 #34
+2023/08/26-20:24:39.438 1358 Delete type=2 #37
+2023/08/26-20:24:39.438 1358 Delete type=2 #41
+2023/08/26-20:24:39.438 1358 Delete type=2 #39
+2023/08/26-20:24:39.438 1358 Delete type=2 #32

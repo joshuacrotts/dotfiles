@@ -1,0 +1,40 @@
+standard-module-name-resolver: collection not found
+  for module path: (lib "racket-langserver")
+  collection: "racket-langserver"
+  in collection directories:
+   /home/joshuacrotts/.local/share/racket/8.10/collects
+   /usr/share/racket/collects/
+   ... [166 additional linked and package directories]
+[Info  - 2:32:33 PM] Connection to server got closed. Server will restart.
+standard-module-name-resolver: collection not found
+  for module path: (lib "racket-langserver")
+  collection: "racket-langserver"
+  in collection directories:
+   /home/joshuacrotts/.local/share/racket/8.10/collects
+   /usr/share/racket/collects/
+   ... [166 additional linked and package directories]
+[Info  - 2:32:34 PM] Connection to server got closed. Server will restart.
+standard-module-name-resolver: collection not found
+  for module path: (lib "racket-langserver")
+  collection: "racket-langserver"
+  in collection directories:
+   /home/joshuacrotts/.local/share/racket/8.10/collects
+   /usr/share/racket/collects/
+   ... [166 additional linked and package directories]
+[Info  - 2:32:34 PM] Connection to server got closed. Server will restart.
+standard-module-name-resolver: collection not found
+  for module path: (lib "racket-langserver")
+  collection: "racket-langserver"
+  in collection directories:
+   /home/joshuacrotts/.local/share/racket/8.10/collects
+   /usr/share/racket/collects/
+   ... [166 additional linked and package directories]
+[Info  - 2:32:34 PM] Connection to server got closed. Server will restart.
+standard-module-name-resolver: collection not found
+  for module path: (lib "racket-langserver")
+  collection: "racket-langserver"
+  in collection directories:
+   /home/joshuacrotts/.local/share/racket/8.10/collects
+   /usr/share/racket/collects/
+   ... [166 additional linked and package directories]
+[Error - 2:32:34 PM] Connection to server got closed. Server will not be restarted.

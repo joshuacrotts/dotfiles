@@ -1,0 +1,419 @@
+2023-08-24 20:53:35.325 [error] Extension 'github.copilot' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): inlineCompletionsAdditions, terminalDataWriteEvent
+product.json (WINS): inlineCompletionsAdditions
+2023-08-24 20:53:38.726 [info] [perf] Render performance baseline is 41ms
+2023-08-24 20:53:46.338 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:53:56.676 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:01.314 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:03.030 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:04.798 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:06.000 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:07.392 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:08.506 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:10.970 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:11.978 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:34.827 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:05.816 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:09.396 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:10.626 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:13.517 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:14.615 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:17.090 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:44.898 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:46.067 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:47.655 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:49.467 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:52.504 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:55.395 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:56.411 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:57.664 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:00.354 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:04.420 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:32.317 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:34.030 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:35.126 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:36.875 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:38.109 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:41.154 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:42.566 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:43.876 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:49.380 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:50.679 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:51.912 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:53.734 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:59.324 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:00.548 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:01.944 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:05.149 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:08.237 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:11.357 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:16.453 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:17.728 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:18.734 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:27.036 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:28.666 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:30.303 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:31.867 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:34.428 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:35.799 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:36.840 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:43.388 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:44.476 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:47.029 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:48.992 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:49.074 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:51.301 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:53.447 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:54.636 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:56.236 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:00.299 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:03.751 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:06.513 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:11.570 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:12.688 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:14.156 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:15.482 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:17.324 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:24.934 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:28.725 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:34.536 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:36.450 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:37.857 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:39.307 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:41.404 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:44.787 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:52.254 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:56.242 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:03:03.868 [error] codeRange: Rule Failed: GetCodeRange: Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)

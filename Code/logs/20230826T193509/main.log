@@ -1,0 +1,8 @@
+2023-08-26 19:35:09.678 [info] update#setState idle
+2023-08-26 19:35:39.681 [info] update#setState checking for updates
+2023-08-26 19:35:39.746 [info] update#setState idle
+2023-08-26 20:41:21.683 [info] update#setState checking for updates
+2023-08-26 20:41:21.799 [info] update#setState idle
+2023-08-26 22:09:34.067 [info] update#setState checking for updates
+2023-08-26 22:09:34.184 [info] update#setState idle
+2023-08-26 22:46:50.213 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 2106]: crashed with code 15 and reason 'killed'

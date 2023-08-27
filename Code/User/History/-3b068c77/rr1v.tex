@@ -1,0 +1,320 @@
+\section{Compiling \asmprelang{PROC}{} to \asmpostlang{PROC}{}}
+Our gentle introduction to compiling simple procedures is over---we will now take a deep dive into compiling complex procedures. A complex procedure is one that may receive parameters.
+
+\begin{figure}[H]
+    \begin{tcolorbox}
+        \begin{bnfgrammar}[lllll]
+            expr ::= call || proc
+            ;;
+            call ::= `(call ' id `(' expr* `))'
+            ;;
+            procdecl ::= `(proc ' id `(' id* `)' expr* `)'
+            ;;
+            proc ::= expr+
+        \end{bnfgrammar}
+    \end{tcolorbox}
+    \caption{ Extended BNF Grammar for \asmprelang{PROC}{} }
+\end{figure}
+
+All of our additions will reside in two functions: \texttt{reduce-call} and \texttt{reduce-proc}. First, when we invoke a function, we evaluate its arguments via \texttt{reduce}. Then, we move them into specific registers depending on their argument position. Passing arguments in registers poses a problem: what happens if we pass more arguments than we have assigned registers? \asmprelang{PROC}{} does not solve this problem, but the x64 assembly solution is to push those arguments to the stack in reverse order.
+
+\begin{figure}[H]
+    \begin{center}
+        \begin{tabular}{c|c}
+            Argument Position & Register\\
+            \hline
+            1 & \texttt{\%rdi} \\
+            2 & \texttt{\%rsi} \\ 
+            3 & \texttt{\%rdx} \\
+            4 & \texttt{\%rcx} \\
+            5 & \texttt{\%r8} \\
+            6 & \texttt{\%r9} \\
+            $\geq 7$ & \textit{stack} \\
+            \# of SSE Registers & \texttt{\%rax}
+        \end{tabular}
+    \end{center}
+    \caption{Mapping of Argument Positions to Registers}
+    \label{fig:argument-registers}
+\end{figure} 
+
+We need a few local procedures to help us map evaluated arguments into registers. But first, let us discuss a subtle predicament that introduces itself only after testing this language. What happens when we evaluate a procedure with multiple calls as its arguments? Consider the following sequence of function calls:
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(call foo (call bar 10 20) (call baz 30 40))
+\end{lstlisting}\end{cl}
+
+A well-defined order of argument evaluation must be set in stone before we continue. \texttt{foo}'s arguments should be evaluated as follows: we must reduce each argument before moving its value into a register. In other words, if a procedure has arguments $a$, $b$, and $c$, we must reduce $a$, $b$, and $c$, before moving any into an argument register. The reasoning is because $a$, $b$, and $c$ are all arguments that represent some expression; these expressions may, themselves, be function calls. So, if we were to, for instance, reduce argument $a$, then move it into \texttt{\%rdi}, this results in a possible argument-register interference. If argument b contains a call to a function of at least one argument, it needs access to a free \texttt{\%rdi} register. Overwriting the value in \texttt{\%rdi} erases the previous argument stored. A possible solution is to push all argument register values to the stack and pop them before and after evaluating an argument, but this is too cumbersome and only serves to hide the problem at hand rather than solve it. Instead, we should, as we previously explained, reduce all arguments to a call, then and only then, move the reduced arguments into registers. 
+
+Let us create a function that reduces every argument. Function arguments have a property of guaranteed resolution, i.e., it is impossible for the argument to a function to resolve to something that cannot be passed. Therefore, we can write a local procedure, namely \texttt{reduce-args}, which invokes \ttt{reduce} on each argument.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define reduce-call
+ ((*;$\lambda$;*) (exp)
+  (letrec ([(*;\textcolor{lightgray}{$\ldots$};*)]
+           [reduce-args 
+            ((*;$\lambda$;*) (args)
+             (cond
+              [(null? args) '()]
+              [else 
+               (cons (reduce (first args)) (reduce-args (rest args)))]))])
+   (*;\textcolor{lightgray}{$\ldots$};*))))
+\end{lstlisting}\end{cl}
+
+Because \texttt{map} returns another list, we know by the property of guaranteed resolution that this list contains a reduced value for each function argument. So, all we must do is move these reduced values, one by one, into the appropriate argument registers. We can use a function \texttt{map-args} to do this process. 
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define reduce-call
+ ((*;$\lambda$;*) (exp)
+  (letrec ([(*;\textcolor{lightgray}{$\ldots$};*)]
+           [map-args 
+            ((*;$\lambda$;*) (redargs i)
+             (cond
+              [(null? redargs) (print-empty)]
+              [else 
+               (begin
+                (print-instruction3 
+                 'movq (first redargs) (list-ref arg-registers i))
+                (map-args (rest redargs) (add1 I)))]))])
+   (*;\textcolor{lightgray}{$\ldots$};*))))
+\end{lstlisting}\end{cl}
+
+Finally, we invoke these procedures compositionally, i.e., \texttt{(map-args (reduce-args procargs))}.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define reduce-call
+ ((*;$\lambda$;*) (exp)
+  (letrec ([(*;\textcolor{lightgray}{$\ldots$};*)])
+   (cond
+    [(*;\textcolor{lightgray}{$\ldots$};*)]
+    [else
+     (begin
+      (map-args (reduce-args procargs) 0)
+      (print-instruction2 'callq procname)
+      'rax)]))))
+\end{lstlisting}\end{cl}
+
+Each argument is evaluated before being stored in an argument register. Now we need to begin the process of unwrapping the registers and storing parameters on the stack as local variables. To do this, we can write a local procedure \texttt{reduce-params} inside \texttt{reduce-proc} that moves each value in the argument registers, as a parameter, into a stack-declared variable. The idea is that we allocate enough space for not only locally-declared variables but also parameters. This way, we do not need to worry about where and which register an arbitrary argument is contained.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define reduce-proc
+ ((*;$\lambda$;*) (proc)
+  (let* ([(*;\textcolor{lightgray}{$\ldots$};*)]
+         [reduce-params 
+          ((*;$\lambda$;*) (lop)
+           (map 
+            ((*;$\lambda$;*) (a)
+             (print-instruction3
+              'movq
+               (list-ref arg-registers (index-of lop a))
+               a))
+            lop))])
+   (*;\textcolor{lightgray}{$\ldots$};*))))
+\end{lstlisting}\end{cl}
+
+Though, this introduces a problem: we now need a way to designate that parameters should be treated as local variables. A simple solution is to write another local procedure: \texttt{assign-param-homes} that invokes \texttt{extend-env!} on each parameter.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define reduce-proc
+ ((*;$\lambda$;*) (proc)
+  (let* ([(*;\textcolor{lightgray}{$\ldots$};*)]
+         [assign-param-homes 
+          ((*;$\lambda$;*) (lop)
+           (map extend-env! lop))])
+   (*;\textcolor{lightgray}{$\ldots$};*))))
+\end{lstlisting}\end{cl}
+
+Lastly, we must assign parameter homes before their reduction.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define reduce-proc
+ ((*;$\lambda$;*) (proc)
+  (let* ((*;\textcolor{lightgray}{$\ldots$};*))
+   (begin
+    (set! env (*;\qq;*)((,procname . (,(box 0) . ,(box '()))) . ,env))
+    (set! current-proc procname)
+    (assign-param-homes procparams)
+    (assign-homes procbody)
+    (generate-prologue procbody)
+    (reduce-params procparams)
+    (reduce-statements procbody)
+    (generate-epilogue procbody)))))
+\end{lstlisting}\end{cl}
+
+We can now analyze the code generated for reducing parameters into local variable homes.
+
+\begin{cl}[]{}
+\begin{lstlisting}[language=MyAssembly]
+sum_of_args:
+  movq %rdi, -8(%rbp)
+  movq %rsi, -16(%rbp)
+  movq %rdx, -24(%rbp)
+  movq %rcx, -32(%rbp)
+\end{lstlisting}
+\end{cl}
+
+All of this preparation allows us to write functions that contain up to (and including) six arguments. These functions may be recursive, so let us define addition over natural recursion as an example. Assume that we also have \texttt{add1}, \texttt{sub1}, and \texttt{is_zero} defined.
+
+\begin{cloast}[]{}
+\begin{lstlisting}[language=MySOutput]
+(*;\textbf{>};*) (compile 
+   '((proc add (n m)
+     ((if (call is_zero n)
+          (return m)
+          (return 
+           (call add1 
+            (call add 
+             (call sub1 n) 
+              m)))))))
+\end{lstlisting}
+\tcblower
+\begin{lstlisting}[language=MyNLNAssembly]
+add:
+  pushq %rbp
+  movq %rsp, %rbp
+  subq $16, %rsp
+  movq %rdi, -8(%rbp)
+  movq %rsi, -16(%rbp)
+  movq -8(%rbp), %rdi
+  callq is_zero
+  cmpq $1, %rax
+  jz L3
+  movq -8(%rbp), %rdi
+  callq sub1
+  movq %rax, %rdi
+  movq -16(%rbp), %rsi
+  callq add
+  movq %rax, %rdi
+  callq add1
+  movq %rax, %rax
+  jmp L4
+L3:
+  movq -16(%rbp), %rax
+L4:
+  addq $16, %rsp
+  movq %rbp, %rsp
+  popq %rbp
+  retq
+\end{lstlisting}
+\end{cloast}
+
+\subsection*{Compiling \asmprelang{PROC}{+} to \asmpostlang{PROC}{+}}
+
+Here's the deal: \asmprelang{PROC}{} compiles most procedures down to x64 assembly correctly. There is a bit of an issue, however, when there are multiple arithmetic expressions within the arguments of a function call. Consider the following tail recursive\index{tail recursive} Fibonacci code:
+
+\begin{cl}[]{}\begin{lstlisting}[language=MySOutput]
+(*;\textbf{>};*) (compile 
+   '((proc fib_iter (a b n)
+     ((if (?= n 0)
+          (return b)
+          (return (call fib_iter (+ a b) a (- n 1))))))
+     (proc fib (n)
+      ((return (call fib_iter 1 0 n))))
+     (proc main ()
+      ((call print (call fib 8))))))
+\end{lstlisting}\end{cl}
+
+Pay careful attention to the recursive call to \texttt{fib\_iter}. Namely, we pass to it three arguments: an expression representing the sum of \texttt{a} and \texttt{b}, \texttt{b}, and an expression representing the difference between \texttt{n} and \texttt{1}. Now, let us investigate the relevant x64 assembly output.
+
+\begin{cl}[]{}
+\begin{lstlisting}[language=MyAssembly]
+fib_iter:
+  (*;\textcolor{lightgray}{$\ldots$};*)
+  movq -8(%rbp), %rax  # Move a into rax.
+  addq -16(%rbp), %rax # Subtract b from a.
+  movq -24(%rbp), %rax # Move n into rax (collision!)
+  subq $1, %rax        # Subtract 1 from n.
+  movq %rax, %rdi      # Move (n-1) into arg 1.
+  movq -8(%rbp), %rsi  # Move a into arg. 2.
+  movq %rax, %rdx      # Move (n-1) into arg 3.
+  callq fib_iter
+\end{lstlisting}
+\end{cl}
+
+Notice that we have a race for who gets access to the \texttt{rax} register for arithmetic. The problem is that we delay setting argument registers until after all arguments are evaluated. It seems that we are back where we started---in a dilemma about when we should move argument evaluations into argument-registers. We could create a complex register-allocation algorithm, but that is not necessary; we have a stack for a reason, right? Why not do the following: evaluate the arguments to a function \textit{in reverse}, push the result to the stack via \texttt{pushq}. Then, once all arguments have been evaluated, pop the results off the stack into the appropriate argument-registers via \texttt{popq}. The following is an example using the \texttt{fib} procedure from before.
+
+\begin{cl}[]{}
+\begin{lstlisting}[language=MyAssembly]
+fib_iter:
+  movq -24(%rbp), %rax  # Move n into rax.
+  subq $1, %rax         # Subtract n-1 from rax.
+  movq %rax, %rax    
+  pushq %rax            # Push n-1 to stack.
+  movq -8(%rbp), %rax   # Move a into rax.
+  pushq %rax            # Push a to stack.
+  movq -8(%rbp), %rax   # Move a into rax.
+  addq -16(%rbp), %rax  # Add b to rax.
+  movq %rax, %rax      
+  pushq %rax            # Push (a+b) to stack.
+  popq %rdi             # Pop (a+b) into rdi.
+  popq %rsi             # Pop a into rsi.
+  popq %rdx             # Pop (n-1) into rdx.
+  callq fib_iter
+\end{lstlisting}
+\end{cl}
+
+There are a few superfluous instructions, e.g,. \texttt{movq \%rax, \%rax}, but otherwise, this code is relatively straightforward. We push each evaluated argument to the stack in reverse order (i.e., we evaluate the $n^{\text{th}}$ argument first, down to the first). Then, we pop each evaluated argument off the stack into the respective registers. Since the first argument is the last one pushed, we can pop the values in the order specified by \texttt{arg-registers}. Note that the following two functions, \texttt{push-args} and \texttt{pop-args}, replace \texttt{reduce-args} and \texttt{map-args} respectively.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define reduce-call
+ ((*;$\lambda$;*) (exp)
+  (letrec ([(*;\textcolor{lightgray}{$\ldots$};*)]
+           [pop-args 
+            ((*;$\lambda$;*) (args i)
+             (cond
+              [(null? args) (print-empty)]
+              [else 
+               (begin
+                (print-instruction2 'popq (list-ref arg-registers i))
+                (pop-args (rest redargs) (add1 i)))]))])
+   (*;\textcolor{lightgray}{$\ldots$};*))))
+\end{lstlisting}\end{cl} 
+
+Therefore, we invoke these helper functions as follows. From there, if we recompile the Fibonacci example from before, we get a pleasant surprise: a correct result!
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define reduce-call
+ ((*;$\lambda$;*) (exp)
+  (letrec ((*;\textcolor{lightgray}{$\ldots$};*))
+   (cond
+    [(*;\textcolor{lightgray}{$\ldots$};*)]
+    [else 
+     (begin
+      (push-args (reverse procargs))
+      (pop-args procargs 0)
+      (print-instruction2 'callq procname)
+      'rax)]))))
+\end{lstlisting}\end{cl}
+
+One thing that we neglected to do, though, is conform to the requirement that, across function calls, certain registers are to be preserved by the callee. In AT\&T x64 assembly, the following registers, should they be used in a function definition, must store their current values onto the stack: \ttt{\%r12, \%r13, \%r14, \%r15, \%rsp, \%rbp, \%rbx}. We already preserve the base pointer register since we modify its value upon making a function call. It is certainly rather brazen to push all seven callee-saved registers to the stack even if they are not used in the function body, but out of simplicity, we will add the relevant \ttt{pushq} and \ttt{popq} instructions to our \ttt{generate-prologue} and \ttt{generate-epilogue} functions. Note that, in saving these registers to the stack, we considerably increase our code size due to the lack of optimization, but it is tolerated for the purposes of demonstration.
+
+\begin{cl}[]{}
+\begin{lstlisting}[language=MyScheme]
+(define generate-prologue
+ ((*;$\lambda$;*) (los)
+  (begin
+   (*;\textcolor{lightgray}{$\ldots$};*)
+   (print-instruction2 'pushq 'rbp)
+   (print-instruction2 'pushq 'rbx)
+   (print-instruction2 'pushq 'rsp)
+   (print-instruction2 'pushq 'r12)
+   (print-instruction2 'pushq 'r13)
+   (print-instruction2 'pushq 'r14)
+   (print-instruction2 'pushq 'r15)
+   (*;\textcolor{lightgray}{$\ldots$};*))))
+
+(define generate-epilogue
+ ((*;$\lambda$;*) (los)
+  (begin
+   (*;\textcolor{lightgray}{$\ldots$};*)      
+   (print-instruction2 'popq 'r15)
+   (print-instruction2 'popq 'r14)
+   (print-instruction2 'popq 'r13)
+   (print-instruction2 'popq 'r12)
+   (print-instruction2 'popq 'rsp)
+   (print-instruction2 'popq 'rbx)
+   (print-instruction2 'popq 'rbp)
+   (*;\textcolor{lightgray}{$\ldots$};*))))
+\end{lstlisting}
+\end{cl}
+
+\exercise{4}{chapter-compilation}{If a function has more than six parameters, according to the System V AMD64 ABI, they are to be pushed to the stack. Implement this feature into \asmprelang{PROC}{+}. This means that parameters past the sixth will need to have assigned homes relative to the stack frame pointer. }

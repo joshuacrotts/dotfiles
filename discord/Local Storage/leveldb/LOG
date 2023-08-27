@@ -1,0 +1,6 @@
+2023/08/27-14:11:16.242 32c Reusing MANIFEST /home/joshuacrotts/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/08/27-14:11:16.243 32c Recovering log #42
+2023/08/27-14:11:16.243 32c Reusing old log /home/joshuacrotts/.config/discord/Local Storage/leveldb/000042.log 
+2023/08/27-14:26:30.392 a9c Level-0 table #46: started
+2023/08/27-14:26:30.394 a9c Level-0 table #46: 19255 bytes OK
+2023/08/27-14:26:30.395 a9c Delete type=0 #42

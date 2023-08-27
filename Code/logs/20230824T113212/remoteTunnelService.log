@@ -1,0 +1,2 @@
+2023-08-24 11:32:13.824 [error] status error(undefined): + Error: spawn /opt/visual-studio-code/bin/code-tunnel ENOENT 
+2023-08-24 11:32:13.824 [error] undefined

@@ -1,0 +1,711 @@
+\section{Constructive Recursion}
+\subsection*{Accumulator-Passing Style}
+We have repeatedly seen examples of recursive functions, many of which are singly recursive, in which we break a problem down into smaller problem(s) and invoke recursive calls. Let us consider the factorial function as an example. So long as $n>0$, we multiply $n$ by a recursive call with `$n-1$'. That is, we started with the problem of computing `$n!$', and we decomposed it into `$n\cdot{(n-1)!}$'. This problem is then potentially broken down into a step further, thereby resolving to `$n\cdot{(n-1)}\cdot{(n-2)!}$'.\footnote{We use the word ``potentially'' because this depends on the input number.} In this section, we will introduce the concept of \textit{accumulator-passing style}\index{accumulator-passing style}, which serves to optimize recursive functions.
+
+A component of accumulator-passing style functions is the fact that a function of this form is, by definition, \textit{tail recursive}\index{tail recursive}. A tail recursive function is a function where the last operation performed is a single recursive function call. Consider the following definition of \texttt{length}:
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define length
+ ((*;$\lambda$;*) (ls)
+  (cond
+   [(null? ls) 0]
+   [else (add1 (length (rest ls)))])))
+\end{lstlisting}\end{cl}
+Let us analyze the recursive stack trace of this function using the input list \texttt{\q(5 10 15 20}).
+
+\begin{center}
+\begin{tikzpicture}[
+  thick, >={Latex},
+  start chain=going above, node distance=5mm,
+  every join/.append style=<-,
+  function/.style={
+    shape=rectangle, draw, minimum width=6cm, rounded corners}
+]
+\node[function, on chain, join] (A){\texttt{(length ())}};
+\draw [-Stealth, bend right=35] (3,4.4) to (3.35,4.9);
+\node[function, on chain, join] (B) {\texttt{(length \textquotesingle(20))}};
+\node[draw,align=left,line width=0.5pt] at (4.5,4.5) {\textbf{Return 4}};
+\node[function, on chain, join] (C) {\texttt{(length \textquotesingle(15 20))}};
+\node[draw,align=left,line width=0.5pt] at (4.5,3.5) {\textbf{Return 3}};
+\draw [-Stealth, bend right=90] (3,3.3) to (3,4.3);
+\node[function, on chain, join] (D) {\texttt{(length \textquotesingle(10 15 20))}};
+\node[draw,align=left,line width=0.5pt] at (4.5,2.5) {\textbf{Return 2}};
+\draw [-Stealth, bend right=90] (3,2.3) to (3,3.2);
+\node[function, on chain, join] (E) {\texttt{(length \textquotesingle(5 10 15 20))}};
+\node[draw,align=left,line width=0.5pt] at (4.5,1.5) {\textbf{Return 1}};
+\draw [-Stealth, bend right=90] (3,1.3) to (3,2.2);
+\node[draw,align=left,line width=0.5pt] at (4.5,0.5) {\textbf{Return 0}};
+\draw [-Stealth, bend right=90] (3,0.1) to (3,1.0);
+\end{tikzpicture}
+\end{center}
+
+We see that, in the second \texttt{cond} clause, the outermost expression is \texttt{add1} and not a recursive call. Therefore, this version of \texttt{length} is not tail recursive\index{tail recursive} and, therefore, does not use accumulator-passing style. We also know this because the recursion unwinds---that is, the arrows to the right-hand side correspond to the recursive unwinding process. Recall that the last step in the function of the non-base case is an addition operation of $1$ and the sum of the next recursive call. Let us now take a look at a version that keeps track of the length via an argument to the recursive call.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define length
+ (letrec ([length-helper 
+           ((*;$\lambda$;*) (ls n)
+            (cond
+             [(null? ls) n]
+             [else (length-helper (rest ls) (add1 n))]))])
+  ((*;$\lambda$;*) (ls)
+   (length-helper ls 0))))
+\end{lstlisting}\end{cl}
+
+Let us once again analyze the recursive trace of this function using the input list \texttt{\textquotesingle(5 10 15 20}):
+
+\begin{center}
+\begin{tikzpicture}[
+  thick, >={Latex},
+  start chain=going above, node distance=5mm,
+  every join/.append style=<-,
+  function/.style={
+    shape=rectangle, draw, minimum width=6cm, rounded corners}
+]
+\node[function, on chain, join]{\texttt{(length-helper \textquotesingle() 4)}};
+\node[function, on chain, join]{\texttt{(length-helper \textquotesingle(20) 3)}};
+\node[function, on chain, join]{\texttt{(length-helper \textquotesingle(15 20) 2)}};
+\node[function, on chain, join]{\texttt{(length-helper \textquotesingle(10 15 20) 1)}};
+\node[function, on chain, join]{\texttt{(length-helper \textquotesingle(5 10 15 20) 0)}};
+\node[function, on chain, join]{\texttt{(length \textquotesingle(5 10 15 20))}};
+\end{tikzpicture}
+\end{center}
+
+Once our tail recursive\index{tail recursive} solution reaches the base case, i.e., an empty list, we immediately return \texttt{n}, which in this example is \texttt{4}. It is, therefore, more efficient to use the tail recursive\index{tail recursive} version as opposed to non-tail recursive. For those skeptical readers who question our claim, consider the sum of the number of recursive calls made plus the number of unwindings versus the number of tail-recursive calls. When processing larger lists, the performance benefits of accumulator-passing style begin to shine brighter than it may originally appear. Of course, accumulator-passing style functions, in general, should be written with a helper function to accommodate the additional passed parameter(s) so as to not burden the function caller with remembering their initial values. Another amazing property of tail recursive\index{tail recursive} functions is their direct correspondence to iterative structures, e.g., loops. Any tail recursive\index{tail recursive} function may be converted into a function that uses some loop, bypassing the need for recursion at all.
+
+\subsection*{Continuation-Passing Style}
+Before we gravitate into a discussion on continuations and the need for continuation-passing style as a whole, let us begin with a motivating example. Suppose we have the following function that computes the product of a list of numbers (assuming that an empty list returns \texttt{1}):
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define product-lon
+ ((*;$\lambda$;*) (ls)
+  (cond
+   [(null? ls) 1]
+   [else (* (first ls) (product-lon (rest ls)))])))
+\end{lstlisting}\end{cl}
+
+This works as intended, but what happens if one of our elements is a zero? The entire product resolves to zero, of course! The core issue is slightly less subtle, however: when we encounter a zero, the product of the remaining numbers in the list is still computed, despite it always resulting in zero. What if there was a way to circumvent this issue? In C, for instance, we have explicit \texttt{return} statements that terminate a procedure early.\footnote{Instead of using a recursive algorithm, we will use the iterative approach since it is simpler to implement and understand in a C context.}
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyC]
+long double product-lon(long double *lon, size_t n) {
+ long double product = 1;
+ for (int i = 0; i < n; i++) {
+  if (0 == lon[i]) { return 0; } 
+  else { product = product * lon[i]; }
+ }
+ return product;
+}
+\end{lstlisting}\end{cl}
+
+We check to see if the current element is zero and, if so, immediately return \texttt{0} thereby cancelling the rest of the loop. We are, sadly, not afforded this luxury in our languages. A curious reader may pose the following question: ``Could we not just add an additional \texttt{cond} clause to the mix that resolves to zero if the \textit{first} of \texttt{lon} is \texttt{0}?'' For instance, suppose we made the following alteration:
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define product-lon
+ ((*;$\lambda$;*) (ls)
+  (cond
+   [(null? ls) 1]
+   [(zero? (first ls)) 0]
+   [else (* (first ls) (product-lon (rest ls)))])))
+\end{lstlisting}\end{cl}
+
+Would this not work as intended? While it would allow us to break out of the current recursive step, it would do nothing to prevent the unnecessary recursive unwinding. This alternative base case is treated identically to the \texttt{null?} base case, meaning that when it is reached, the program unwinds the recursion up to that point if it exists (which, for our example, clearly does!). Continuations allow us to implement this behavior.
+
+A \textit{continuation}\index{continuation} is, in effect, the next ``step'' of a computation. More specifically, it denotes where the result of a previous computation is sent. So, using the word in its definition, it allows us to see where we continue evaluation. Continuations are somewhat meaningless without the notion of \textit{continuation-passing style}\index{continuation-passing style}. A function written in CPS receives one extra argument: a continuation \texttt{k}, which is sent the result of a computation.\footnote{We intentionally do not further elaborate on the continuation representation.} Let us write a very simple example where we convert addition into continuation-passing style.
+
+Suppose we have a binary function \texttt{add} that we want to convert to continuation-passing style.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define add
+ ((*;$\lambda$;*) (n m)
+  (+ n m)))
+\end{lstlisting}\end{cl}
+
+The first step is to rename the function with an affixed \texttt{-cps}. This is not mandatory, but it helps to distinguish it from its non-CPS'd counterpart:
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define add-cps
+ ((*;$\lambda$;*) (n m)
+  (+ n m)))
+\end{lstlisting}\end{cl}
+Next, we must add an extra formal parameter to the function: the continuation \texttt{k}:
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define add-cps
+ ((*;$\lambda$;*) (n m k)
+  (+ n m)))
+\end{lstlisting}\end{cl}
+Finally, everywhere there exists a ``simple'' operator we wrap in an invocation to \texttt{k}. For the time being, we assume that continuations are functions:
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define add-cps
+ ((*;$\lambda$;*) (n m k)
+  (k (+ n m))))
+\end{lstlisting}\end{cl}
+So, what exactly is going on in this example? We add the numbers \texttt{n} and \texttt{m} and send the result of the computation to the continuation \texttt{k}. The question that is likely on everyone's mind at this point is, ``What \textit{is} the continuation?''. The answer is \textit{anything}! An answer like this is somewhat disappointing since it may not clarify anything, but let us continue with the example and see if it fills in the gaps.
+
+We want to designate the \textit{empty continuation}, i.e., the ``base'' continuation. This continuation, since we are using a functional representation of continuations, is just the identity function.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define empty-k
+ ((*;$\lambda$;*) ()
+  ((*;$\lambda$;*) (v) v)))
+\end{lstlisting}\end{cl}
+
+So, when we invoke \texttt{empty-k}, we receive a function whose input is echoed back out. Let us see what this looks like in the context of our \texttt{add-cps} function. Recall that it now takes three arguments: two numbers and a continuation. Upon its invocation, we supply said numbers and the empty continuation.
+
+\begin{cloast}[]{}\begin{lstlisting}[language=MyScheme]
+(define add-cps
+ ((*;$\lambda$;*) (n m k)
+  (k (+ n m))))
+
+(define empty-k
+ ((*;$\lambda$;*) ()
+  ((*;$\lambda$;*) (v) v)))
+
+(*;\textbf{>};*) (add-cps 5 10 (empty-k))
+\end{lstlisting}
+\tcblower
+\begin{lstlisting}[language=MyOutput]
+
+
+
+
+
+
+
+
+15
+\end{lstlisting}
+\end{cloast}
+
+Let us magnify this a bit to see how it works. Invoking \texttt{add-cps} resolves its arguments as follows:
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(add-cps 5 10 ((*;$\lambda$;*) (v) v))
+(((*;$\lambda$;*) (v) v) (+ 5 10))
+(((*;$\lambda$;*) (v) v) 15)
+15
+\end{lstlisting}\end{cl}
+
+Invoking \texttt{(empty-k)} evaluates to the identity function. Therefore passing the expression \ttt{(+ 5 10)} resolves to itself, which reduces to \ttt{15}.
+
+An example with only addition is not very fun nor enlightening, so let us now apply our knowledge to the original problem. We want to bail out of the \texttt{product-lon} function early. We can implement this behavior by sending a value to a continuation which, in effect, breaks the chain of recursive calls and prevents unwinding. Recall that a continuation is the next step of a computation, or the next thing to do, so to speak. When invoking a continuation, everything, i.e., function invocations, etc., performed before the continuation is stopped. Therefore, this behavior is exactly what we are after---if we encounter a \texttt{0} in our list of numbers, we know that the product can never not be zero from that point forward, meaning that we should simply invoke the continuation with \texttt{0}. Let us start by converting our \texttt{product-lon} function into continuation-passing style:
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define product-lon-cps
+ ((*;$\lambda$;*) (ls k)
+  (cond
+   [(null? ls) (*;\textcolor{lightgray}{$\ldots$};*)]
+   [(zero? (first ls)) (*;\textcolor{lightgray}{$\ldots$};*)]
+   [else (*;\textcolor{lightgray}{$\ldots$};*)])))
+\end{lstlisting}\end{cl}
+We took the liberty of affixing \texttt{-cps} to the function name as well as adding \texttt{k} to the formal parameter list. Now, we have three cases; the first two of which are trivial. Numbers are ``simple'', meaning that all we need to do is invoke the continuation in these cases.
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define product-lon-cps
+ ((*;$\lambda$;*) (ls k)
+  (cond
+   [(null? ls) (k 1)]
+   [(zero? (first ls)) (k 0)]
+   [else (*;\textcolor{lightgray}{$\ldots$};*)])))
+\end{lstlisting}\end{cl}
+The recursive case, unfortunately, is not ``simple''. A characteristic (and, by definition, a requirement) of all functions written in continuation-passing style is that they are tail recursive\index{tail recursive}, akin to accumulator-passing style\index{accumulator-passing style}. With this in mind, let us write the corresponding skeleton code:
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define product-lon-cps
+ ((*;$\lambda$;*) (ls k)
+  (cond
+   [(null? ls) (k 1)]
+   [(zero? (first ls)) (k 0)]
+   [else (product-lon-cps (rest ls) (*;\textcolor{lightgray}{$\ldots$};*))])))
+\end{lstlisting}\end{cl}
+The first argument, \texttt{ls}, is the same as before, meaning we pass the \textit{rest} of \texttt{ls}. Our second argument, i.e., the continuation, is more complex. Recall that we assume our continuation representation are functions of one argument. This assumption allows us to write more into the skeleton. The second argument is a function of one argument, say \texttt{v}:
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define product-lon-cps
+ ((*;$\lambda$;*) (ls k)
+  (cond
+   [(*;\textcolor{lightgray}{$\ldots$};*)]
+   [else (product-lon-cps 
+          (rest ls) 
+          ((*;$\lambda$;*) (v) 
+           (*;\textcolor{lightgray}{$\ldots$};*)))])))
+\end{lstlisting}\end{cl}
+What is \texttt{v}, one should ask? It is the result of computing \texttt{(product-lon-cps (rest ls))}. Therefore, whatever result is returned from this recursive function invocation is ``stored'' in \texttt{v}. Remember that \texttt{k} is a function and, by invoking it, we pass the argument \textit{to} the function. In all cases aside from the empty continuation, this will be the \texttt{($\lambda$ (v) $\ldots$)} function we declare. So, what do we do with \texttt{v}? Well, what does the original function do? We multiply the result of the recursive call (which in this instance is \texttt{v}) with the \textit{first} of \texttt{ls}, and we can do the same thing here!
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define product-lon-cps
+ ((*;$\lambda$;*) (ls k)
+  (cond
+   [(*;\textcolor{lightgray}{$\ldots$};*)]
+   [else (product-lon-cps 
+          (rest ls) 
+          ((*;$\lambda$;*) (v) 
+           (* v (first ls))))])))
+\end{lstlisting}\end{cl}
+Are we done yet? Almost! We absolutely must not forget to apply \texttt{k} to the result of the passed continuation function. Otherwise, the correct result will never be computed and sent to future continuations. Remember that we can only apply the continuation to ``simple'' values. Fortunately, a multiplication \texttt{*} is simple, so we are safe to invoke the continuation on the result:
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define product-lon-cps
+ ((*;$\lambda$;*) (ls k)
+  (cond
+   [(null? ls) (k 1)]
+   [(zero? (first ls)) (k 0)]
+   [else (product-lon-cps 
+          (rest ls) 
+          ((*;$\lambda$;*) (v) 
+           (k (* v (first ls)))))])))
+\end{lstlisting}\end{cl}
+Invoking our function with the empty continuation from before gives us delightful (albeit predictable) results:
+\begin{clo}[]{}\begin{lstlisting}[language=MyScheme]
+(*;\textbf{>};*) (product-lon-cps 
+   '(5 8 0 17 2 1 8 2 8 1 27 81 82 72 27 17 61 623) 
+   (empty-k))
+(*;\textbf{>};*) (product-lon-cps 
+   '(73 81 62 83 76 18 62 8) 
+   (empty-k))
+\end{lstlisting}
+\tcblower
+\begin{lstlisting}[language=MyOutput]
+0
+
+
+20646452185344
+\end{lstlisting}
+\end{clo}
+
+This looks identical to what it would look like if we did not bother with continuations and continuation-passing style. Indeed, the output perfectly mirrors said counterpart. What is obscured by our changes, however, is the performance gain when using very large lists or lists that have, say, a zero near the front of the list.
+
+\subsubsection*{Practicality of Continuation-Passing Style}
+
+We now present another topic that benefits from continuation-passing style semantics: exceptions. Consider the following function to divide a number $n$ by $m$:
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define divide
+ ((*;$\lambda$;*) (n m)
+  (/ n m)))
+\end{lstlisting}\end{cl}
+
+Of course, if we set $m=0$, the program crashes because dividing by zero is undefined. Though, what if we did not want the program to crash? We may, instead, want to return a message to the programmer. We could, therefore, implement the following code:
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define divide-or-error
+ ((*;$\lambda$;*) (n m)
+  (cond
+   [(zero? m) "div/0"]
+   [else (/ n m)])))
+\end{lstlisting}\end{cl}
+
+While this solves our problem, it is a bit cumbersome. Furthermore, it now carries an assumption that the programmer must deal with: if the function has an error, it returns a string. Otherwise, a number is returned. It would be nice to give the function caller a say in how errors are handled. This is, again, where we may use continuations. Imagine that we have two different ``pipelines'', so to speak, where we dedicate the former pipeline for errors and the latter for ``successful'' functions, i.e., those that do not error. We have seen that we can pass values to continuations, so we can implement these pipelines as continuations! Thus, if a function errors, it sends a value to the ``error continuation'' and otherwise sends the function result to the ``success continuation''. Let us rewrite the function using these ideas:
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define divide-or-error
+ ((*;$\lambda$;*) (n m err-k succ-k)
+  (cond
+   [(zero? m) (err-k "div/0")]
+   [else (succ-k (/ n m))])))
+\end{lstlisting}\end{cl}
+
+Then, we may invoke the function with continuations (as functions themselves) that handle received values differently. For instance, if the function sends a value to the error continuation, we may want to print it using \texttt{printf}. On the other hand, if the function does not error, we should just resolve to the value itself.
+
+\begin{cloast}[]{}\begin{lstlisting}[language=MyScheme]
+(*;\textbf{>};*) (divide-or-error 5 0
+   ((*;$\lambda$;*) (err) (printf "ERR: (*;\bt;*)a(*;\bt;*)n" err))
+   ((*;$\lambda$;*) (succ) succ))
+(*;\textbf{>};*) (divide-or-error 66.5 7
+   ((*;$\lambda$;*) (err) (printf "ERR: (*;\bt;*)a(*;\bt;*)n" err))
+   ((*;$\lambda$;*) (succ) succ))
+\end{lstlisting}
+\tcblower
+\begin{lstlisting}[language=MyOutput]
+"ERR: div/0"
+
+
+"9.5"
+\end{lstlisting}
+\end{cloast}
+
+We could wrap this behavior in another function, e.g., \texttt{divide}, that abstracts away the explicit continuation definitions.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define divide
+ ((*;$\lambda$;*) (n m)
+  (divide-or-error n m
+   ((*;$\lambda$;*) (err) (printf "ERR: (*;\bt;*)a(*;\bt;*)n" err))
+   ((*;$\lambda$;*) (succ) succ))))
+\end{lstlisting}\end{cl}
+
+Aside from programming language constructs such as exception-handling, is there another reason why converting functions into continuation-passing style is worth the hassle? Of course; any function can be converted into continuation-passing style. Consequently, a CPS'd function is in tail position. We can eliminate tail calls as a form of program optimization, whose benefits shall soon become apparent.
+
+\exercise{3}{chapter-functional}{Properties of functions are sometimes deterministic, and other times not. In general, though, it is impossible to write an algorithm that solves non-trivial semantic properties of functions.\footnote{All thanks to Henry Gordon Rice.\index{Henry Gordon Rice}} Fortunately for us, determining if a (simple) function is tail-recursive is neither non-trivial nor a semantic property! Write the \ttt{tail-recursive?} predicate that determines whether a quoted function is tail-recursive. Account for \ttt{cond}, \ttt{if}, \ttt{lambda}, \ttt{zero?}, \ttt{add1}, \ttt{sub1}, as well as the two-argument \ttt{+} and \ttt{*} functions. You may assume that the expression mimics a locally-recursive function definition. We present a few examples to guide your design.}
+
+\begin{clonarrow}[]{}
+\begin{lstlisting}[language=MySOutput]
+((*;\textcolor{blue}{\textbf{define}};*) f1 
+ '(! (lambda (n)
+      (cond
+       [(zero? n) 1]
+       [else (* n (! (sub1 n)))]))))
+
+((*;\textcolor{blue}{\textbf{define}};*) f2
+ '(!-tr (lambda (n acc)
+         (cond
+          [(zero? n) acc]
+          [else (!-tr (sub1 n) (* n acc))]))))
+
+((*;\textcolor{blue}{\textbf{define}};*) f3
+ '(fib (lambda (n)
+        (cond
+         [(zero? n) 0]
+         [(zero? (sub1 n)) 1]
+         [else (+ (fib (sub1 n)) 
+                  (fib (sub1 (sub1 n))))]))))
+
+(*;\textbf{>};*) (tail-recursive? f1)
+(*;\textbf{>};*) (tail-recursive? f2)
+(*;\textbf{>};*) (tail-recursive? f3)
+\end{lstlisting}
+\tcblower
+\begin{lstlisting}[language=MyOutput]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#f
+#t
+#f
+\end{lstlisting}
+\end{clonarrow}
+
+\subsection*{A Flavor of Tail-Call Optimization}
+We have discussed both accumulator-passing and continuation-passing styles, but why not put them to use? In this section, we will explore the need for accumulator-passing style and how it plays a role in \textit{tail-call optimization}\index{tail-call optimization}.
+
+We now understand why tail recursion\index{tail recursion} is significant when dealing with recursive functions, so what if we simply translate every function that uses non-tail recursion into ones that do use tail recursion\index{tail recursion}? This is possible and many compilers/implementations do this, but it is quite complicated. Moreover, the manual translation of a large function may drastically increase in complexity when converting it to its tail recursive\index{tail recursive} counterpart. Fortunately, in ``real'' Scheme implementations, tail-call optimization is a requirement, which means the procedure call stack will never overflow from a function that otherwise might (e.g., from a non-tail recursive function use). Our interpreter does not use tail recursion\index{tail recursion} nor does it perform any optimizations to do such. This, unfortunately, implies that writing a function that uses tail recursion\index{tail recursion} in our language poses minimal performance benefits.\footnote{Testing the recursive versus tail recursive\index{tail recursive} factorial functions prove to show a difference in favor of the tail recursive\index{tail recursive} solution by only a few milliseconds.} Consider the following recursive trivial recursive implementation of the factorial function; testing this function on a small number produces expected results. Though, if we try a rather large number, e.g., $15000$, gives us a segmentation fault.
+
+\begin{cloast}[]{}
+\begin{lstlisting}[language=MyScheme]
+(define !
+ ((*;$\lambda$;*) (n)
+  (if (zero? n)
+      1
+      (* n (! (- n 1))))))
+
+(*;\textbf{>};*) (! 5)
+(*;\textbf{>};*) (! 15000)
+\end{lstlisting}
+\tcblower
+\begin{lstlisting}[language=MyOutput]
+
+
+
+
+
+
+120
+Segmentation fault.
+\end{lstlisting}
+\end{cloast}
+
+First, we need to know \textit{why} this segmentation faults with a large number as input. Let us look at the Valgrind output to determine the problem:\footnote{Valgrind is a program that allows programmers to debug C memory problems and crashes.}
+
+\begin{lstlisting}[language=MyOutput]
+==93175== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==93175== 
+==93175== Process terminating with default action of signal 11 (SIGSEGV)
+==93175==  Access not within mapped region at address 0x1FFE801E60
+==93175== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==93175==    at 0x495EE6C: ??? (in /usr/lib/aarch64-linux-gnu/libgmp.so.10.4.1)
+==93175==  If you believe this happened as a result of a stack
+==93175==  overflow in your program's main thread (unlikely but
+==93175==  possible), you can try to increase the size of the
+==93175==  main thread stack using the --main-stacksize= flag.
+\end{lstlisting}
+
+Valgrind states that the interpreter crashed, most likely, due to a stack overflow. Recursive functions written in a non-tail recursive manner push activation records, continuously, onto the call stack. There is a limit to how many activation records can go on the call stack at a time. So, rewriting \texttt{!} into \texttt{t-tr} is as follows:
+
+\begin{cloast}[]{}
+\begin{lstlisting}[language=MyScheme]
+(define !-tr
+ ((*;$\lambda$;*) (n)
+  (!-tr-helper n 1)))
+    
+(define !-tr-helper
+ ((*;$\lambda$;*) (n acc)
+  (if (zero? n)
+      acc
+      (!-tr-helper (sub1 n) 
+                   (* n acc)))))
+
+(*;\textbf{>};*) (!-tr 5)
+(*;\textbf{>};*) (!-tr 15000)
+(*;\textbf{>};*) (!-tr 30000)
+\end{lstlisting}
+\tcblower
+\begin{lstlisting}[language=MyOutput]
+
+
+
+
+
+
+
+
+
+
+
+120
+2746599...
+Segmentation fault.
+\end{lstlisting}
+\end{cloast}
+
+Sadly, this also causes a stack overflow, albeit allowing for a slightly higher input value, as we see that the second test case works. What is the problem? Our interpreter is written in such a way that does not account for tail recursive\index{tail recursive} functions. Recall how the function \texttt{eval\_application} works: we recursively evaluate the arguments to a function, then recursively evaluate the function body. The last sentence is the issue we need to resolve. Let us take this one step at a time, however, and analyze a very small interpreted language: one that supports global definitions, \texttt{if}, and non-variadic function application. We, of course, need to allow numbers, booleans, and symbols.
+
+The reason we care about tail-call optimization in the first place is that we can represent tail recursive\index{tail recursive} function calls as infinite loops! That is, instead of recursing on the body of the function upon function application, why not create some global static variables that keep track of the current expression to evaluate? Namely, if we create two pointers: \texttt{ast *} and \texttt{struct environment *env}, we can continuously reassign them when evaluating.
+
+\begin{cl}[eval.c]{Creating Global Variables for TCO}\begin{lstlisting}[language=MyC]
+static ast *ast_out = NULL;
+static struct environment *env_out = NULL;
+\end{lstlisting}\end{cl}
+
+From here, we need to update \texttt{eval\_application} to assign values to the global ``out'' variables. Again, these designate the ``next'' abstract syntax tree and environment to evaluate in a non-recursive context.
+
+\begin{cl}[eval.c]{}\begin{lstlisting}[language=MyC]
+static struct sval *eval_application(ast *application, 
+                                     struct environment *env) {
+ (*;\textcolor{lightgray}{$\ldots$};*)
+ if (SVAL_BUILTIN == function->type) {
+  result = apply(function, arguments, num_args, env);
+ } else {
+  ast_out = function->data.proc->body;
+  env_out = environment_extend(function->data.proc->env, function, arguments);
+ }
+ (*;\textcolor{lightgray}{$\ldots$};*)
+}
+\end{lstlisting}\end{cl}
+
+Inside the root \texttt{eval} function, we first wrap the body inside an infinite loop:
+
+\begin{cl}[eval.c]{Adding Infinite Loop to Root Evaluation}\begin{lstlisting}[language=MyC]
+static struct sval *eval(ast *expr, struct environment *env) {
+ while (true) {
+  (*;\textcolor{lightgray}{$\ldots$};*)
+  else {
+   EPF("eval: Unknown ast: %p, tag: %s\n", expr, ast_tag(expr));
+   exit(EXIT_FAILURE);
+  }
+ }
+}
+\end{lstlisting}\end{cl}
+
+Up next we reassign the \texttt{expr} and \texttt{env} arguments in the root evaluation function. This presents an issue, though: \texttt{eval\_application} returns an s-value whenever we apply a builtin function and \texttt{NULL} otherwise. The solution is to return said s-value if and only if it is non-\texttt{NULL}.
+
+\begin{cl}[eval.c]{}\begin{lstlisting}[language=MyC]
+static struct sval *eval(ast *expr, struct environment *env) {
+ while (true) {
+  (*;\textcolor{lightgray}{$\ldots$};*)
+  else if (ast_is_type(expr, "application")) {
+   struct sval *sv = eval_application(expr, env);
+   if (NULL != sv) { return sv; } 
+   else {
+    expr = ast_out;
+    env = env_out;
+   }
+  } 
+  (*;\textcolor{lightgray}{$\ldots$};*)
+ }
+}
+\end{lstlisting}\end{cl}
+
+It is tempting to try out the tail recursive\index{tail recursive} factorial program now, but there is another issue: special forms may or may not return \texttt{NULL} with this setup! Namely, \texttt{eval\_if} no longer return a meaningful s-value since we assign \texttt{ast\_out} to be either the consequent or alternative abstract syntax tree. To account for all special forms, we should create a global static flag \texttt{cont} that, when enabled, continues the loop and, when disabled, returns the provided s-value. We need to always disable the flag after the \texttt{NULL} check. 
+
+\begin{cl}[eval.c]{}\begin{lstlisting}[language=MyC]
+static bool cont = false;
+(*;\textcolor{lightgray}{$\ldots$};*)
+static struct sval *eval(ast *expr, struct environment *env) {
+ while (true) {
+  (*;\textcolor{lightgray}{$\ldots$};*)
+  else if (ast_is_type(expr, "application")) {
+   struct sval *sv = eval_application(expr, env);
+   if (NULL != sv || !cont) { return sv; } 
+   else {
+    expr = ast_out;
+    env = env_out;
+   }
+   cont = false;
+  } 
+ (*;\textcolor{lightgray}{$\ldots$};*)
+ }
+}
+
+static struct sval *eval_if(ast *ifc, struct environment *env) {
+ struct sval *predicate_value = eval(ast_child(ifc, IF_PREDICATE_IDX), env);
+ bool pv = predicate_value->data.boolean;
+ ast_out = ast_child(ifc, pv ? IF_CONSEQUENT_IDX : IF_ALTERNATE_IDX);
+ cont = true;
+ return NULL;
+}
+\end{lstlisting}\end{cl}
+
+Finally, we must disable the flag if we apply a builtin function and enable it otherwise. Returning an s-value after applying a builtin function is never \texttt{NULL} unless an error occurs.
+
+\begin{cl}[eval.c]{}\begin{lstlisting}[language=MyC]
+static struct sval *eval_application(ast *application, 
+                                     struct environment *env) {
+ (*;\textcolor{lightgray}{$\ldots$};*)
+ struct sval *result = NULL;
+ if (SVAL_BUILTIN == function->type) {
+  cont = false;
+  result = apply(function, arguments, num_args, env);
+ } else {
+  cont = true;
+  env_out = environment_extend((*;\textcolor{lightgray}{$\ldots$};*));
+  ast_out = function->data.proc->body;
+ }
+ (*;\textcolor{lightgray}{$\ldots$};*)
+}
+\end{lstlisting}\end{cl}
+
+And that is it! We now have an interpreter that respects tail recursion\index{tail recursion}. We did not have to modify the signatures for any functions at all. Let us write an infinite recursive ``loop'' function as an example of our not-so-difficult work.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyScheme]
+(define inf
+ ((*;$\lambda$;*) ()
+  (inf)))
+\end{lstlisting}\end{cl}
+
+Of course, this never terminates.\footnote{It does eventually crash because we are liberal with how we free dynamic memory\index{dynamic memory}.} In the old implementation, this would quickly result in a segmentation fault\index{segmentation fault}. Trying a very large input on the tail recursive\index{tail recursive} factorial function also no longer immediately segfaults.
+
+\exercise{2}{chapter-functional}{Implement tail-call optimization for \texttt{cond} expressions.}
+
+\exercise{2}{chapter-functional}{Implement tail-call optimization for \texttt{let}, \texttt{let*}, and \texttt{letrec} expressions.}
+
+\subsubsection*{Environment Memoization}
+
+In the previous section we implemented tail-call optimization for function applications, leaving conditionals and local bindings as exercises. One thing to note is that our program does eventually crash with a \texttt{SIGSEGV}\index{segmentation fault}\index{SIGSEGV}. We exemplify this with the \texttt{inf} program from before.
+
+\begin{cloast}[]{}\begin{lstlisting}[language=MyScheme]
+(define inf
+ ((*;$\lambda$;*) ()
+  (inf)))
+
+(*;\textbf{>};*) (inf)
+\end{lstlisting}
+\tcblower
+\begin{lstlisting}[language=MyOutput]
+
+
+
+
+SIGSEGV
+\end{lstlisting}
+\end{cloast}
+
+The reason this occurs, as our footnote stated, is because we constantly allocate memory. Though, it is somewhat unclear as to where this occurs. Upon investigation, we notice that, whenever we call a function, we extend the environment to include new formal parameter bindings. This is fine for most functions, but consider what happens if the arguments do not change in between recursive calls? Would it not be more efficient to ``share'' environments rather than creating one that is exactly the same as a previous function call? Indeed, this is the case. Though, to do so, we need two important details: how to compare s-values and environments for equality. 
+
+S-value equality requires checking both s-value types and their internal values. We have functions/operators to compare characters, booleans, numbers, and strings/symbols, so the only s-value type we must consider is \ttt{SVAL\_PAIR}. Two pairs are equivalent if both their \textit{first} and \textit{rest} are equivalent. Note that we implemented almost this exact behavior when adding \ttt{eqv?} to our language; the difference being that \ttt{sval\_equals} only returns a \ttt{bool} rather than a \ttt{boolean} s-value and for comparing exactly two s-values.
+
+\begin{cl}[sval.c]{S-Value Equality}
+\begin{lstlisting}[language=MyC]
+bool sval_equals(struct sval *sv1, struct sval *sv2) {
+ if ((NULL == sv1) ^ (NULL == sv2)) { return false; } 
+ else if (sv1->type != sv2->type) { return false; } else {
+  switch (sv1->type) {
+   case SVAL_NUMBER:
+    return bignum_equal(sv1->data.number, sv2->data.number);
+   case SVAL_SYMBOL:
+    return 0 == strcmp(sv1->data.symbol, sv2->data.symbol);
+   case SVAL_BOOLEAN:
+    return sv1->data.boolean == sv2->data.boolean;
+   case SVAL_CHARACTER:
+    return sv1->data.character == sv2->data.character;
+   case SVAL_STRING:
+    return 0 == strcmp(sv1->data.string, sv2->data.string);
+   case SVAL_PAIR:
+    if (NULL == sv1->data.pair.first && NULL == sv2->data.pair.first) {
+     return true;
+    } else if (sval_equals(sv1->data.pair.first, sv2->data.pair.first)) {
+     return sval_equals(sv1->data.pair.rest, sv2->data.pair.rest);
+    } else {
+     return false;
+    }
+   default:
+    return false;
+  }
+ }
+}
+\end{lstlisting}
+\end{cl}
+
+In comparing memoized environment bindings, we only want to check if the memoized environment \textit{itself} is equal to the new formal parameter bindings made by the recursive call. Recall that \texttt{environment\_lookup} recursively checks its parent environment is a binding is not found. The solution is to write a helper function \texttt{environment\_lookup\_one} that searches only the provided environment for a binding. With this, we can rewrite \texttt{environment\_lookup} to invoke this procedure.
+
+\begin{cl}[env.c]{Refactoring Environment Lookup Functions}\begin{lstlisting}[language=MyC]
+struct sval *environment_lookup(struct environment *env, const char *key) {
+ struct sval *value = environment_lookup_one(env, key);
+ if (NULL == value && NULL != env) { 
+  return environment_lookup(env->parent, key); 
+ } else { 
+  return value; 
+ }
+}
+(*;\textcolor{lightgray}{$\ldots$};*)
+static struct sval *environment_lookup_one(struct environment *env, 
+                                           const char *key) {
+ if (NULL == env) { return NULL; }
+ for (struct env_pair *curr = env->head; NULL != curr; curr = curr->next) {
+  if (streq(curr->key, key)) { return curr->value; }
+ }
+ return NULL;    
+}
+\end{lstlisting}\end{cl}
+
+Now that we have \ttt{environment\_lookup\_one}, we can write a function to compare an environment  $e$ against the formal parameters to a function $f$. We can memoize the environment to a function's formal parameters and new argument bindings if
+\begin{enumerate}
+    \item The environment $e$ has bindings to all of the formal parameters of $f$ and only those formal parameters.
+    \item The environment $e$'s bindings are equal to $f$'s given arguments.
+\end{enumerate}
+
+\begin{cl}[env.c]{Memoized Environment Equality}
+\begin{lstlisting}[language=MyC]
+static bool environment_equals(struct environment *e, struct sval *f, 
+                               struct sval **args) {
+ if (NULL == e) { return false; }
+ struct procedure *proc = f->data.proc;
+ if (e->num_associations != proc->num_formals) { return false; }
+ (*;\textcolor{lightgray}{$\ldots$};*)
+}
+\end{lstlisting}
+\end{cl}
+
+There is one additional problem we must account for: procedure differentiation. If one procedure calls another procedure that has the same environment bindings, then the environment memoizer will assume it is the same procedure as before and erroneously return the memoized environment. The easy solution is twofold: store the previously-called procedure alongside the memoized environment and check to determine if the one passed to \texttt{environment\_extend} is (via pointer comparison) the memoized procedure.
+
+\begin{cl}[env.c]{Environment Extension Modifications}
+\begin{lstlisting}[language=MyC]
+struct environment *environment_extend(struct environment *e, struct sval *f, 
+                                       struct sval **args) {
+ // Determine if the parent has the same bindings as the new env.
+ if (procedure->data.proc == memo.proc 
+  && environment_equals(memo.menv, procedure, arguments)) {
+  return memo.menv;
+ }
+ struct environment *new_env = environment_create(parent);
+ struct procedure *proc = procedure->data.proc;
+
+ // Copy formals over.
+ for (int i = 0; i < proc->num_formals; i++) {
+  environment_put(new_env, proc->formals[i], arguments[i]);
+ }
+ memo.menv = new_env;
+ memo.proc = proc;
+ return new_env;
+}
+\end{lstlisting}
+\end{cl}
+
+And voil\`a, we have an interpreter that can run truly infinite programs without segmentation faulting or receiving a kill signal. The obvious disadvantage to this approach is that we can only infinitely recurse on functions whose arguments are constant.

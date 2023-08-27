@@ -1,0 +1,7 @@
+(include "stdlib.scm")
+
+(define-macro (for/fold acc-id acc iter-id iter body)
+  (foldl (lambda (iter-id acc-id) body) acc iter))
+
+(printf "~a~n" (for/fold sum 0 i '(1 2 3 4) (+ sum i)))
+(printf "~a" (for/fold str "" c '(\#H \#e) (string-append str c)))

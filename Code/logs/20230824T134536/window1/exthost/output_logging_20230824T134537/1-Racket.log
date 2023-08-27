@@ -1,0 +1,10 @@
+Magic Racket environment info
+
+os.arch:            x64
+os.platform:        linux
+os.release:         6.4.11-arch2-1
+os.version:         #1 SMP PREEMPT_DYNAMIC Sat, 19 Aug 2023 15:38:34 +0000
+process.version:    v16.17.1
+vscode.env.appHost: desktop
+vscode.env.appName: Visual Studio Code
+vscode.env.shell:   

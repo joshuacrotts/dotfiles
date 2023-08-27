@@ -1,0 +1,129 @@
+\input{preamble}
+\input{my-utils}
+\indexsetup{level=\chapter}
+\makeindex[columns=3, title=Index]
+
+\begin{document}
+% \patchcmd{\normalsize}{\@xiipt}{{9.5pt}}{}{}% 
+\fontsize{10}{12.2}\selectfont
+% \allsectionsfont{\sffamily}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}\textit{}
+\textbf{Principles of Computer Science}
+
+An Invigorating, Hands-on Approach
+
+\textit{Joshua Crotts}
+\pagestyle{empty}
+
+\label{copyright}
+\input{intro/copyright}
+\label{summary}
+\input{intro/summary}
+
+\label{dedications}
+\input{intro/dedications.tex}
+\input{intro/intentional-blank}
+
+\label{acknowledgments}
+\input{intro/acknowledgments.tex}
+
+\label{toc}
+\input{intro/toc}
+
+\input{intro/intentional-blank}
+\label{lof}
+\listoffigures
+
+
+\label{preface}
+\input{intro/preface.tex}
+
+\input{intro/intentional-blank}
+
+\pagestyle{fancy}
+
+\chapter{A Computing Mindset}
+\label{chapter-preliminaries}
+\setcounter{excounter}{1}
+\input{chapter-preliminaries/chapter-preliminaries}
+
+\chapter{A Logic Primer}
+\label{chapter-maths}
+\setcounter{excounter}{1}
+\input{chapter-maths/chapter-maths}
+
+\chapter{Data Structures}
+\label{chapter-datastructures}
+\setcounter{excounter}{1}
+\input{chapter-datastructures/chapter-datastructures}
+
+\chapter{Formal Languages}
+\label{chapter-languages}
+\setcounter{excounter}{1}
+\input{chapter-languages/chapter-languages}
+
+% \chapter{Algorithms and Computability}
+% \label{chapter-algorithms}
+% \setcounter{excounter}{1}
+% \input{chapter-algorithms/chapter-algorithms}
+
+\chapter{Programming and Design}
+\label{chapter-interpretation1}
+\setcounter{excounter}{1}
+\input{chapter-interpretation1/chapter-interpretation1}
+
+\chapter{Interpretation}
+\label{chapter-interpretation2}
+\setcounter{excounter}{1}
+\input{chapter-interpretation2/chapter-interpretation2}
+
+\chapter{Functional Programming}
+\label{chapter-functional}
+\setcounter{excounter}{1}
+\input{chapter-functional/chapter-functional}
+
+\chapter{Imperative Programming}
+\label{chapter-nonfunctional}
+\setcounter{excounter}{1}
+\input{chapter-nonfunctional/chapter-nonfunctional}
+
+\chapter{Compilation}
+\label{chapter-compilation}
+\setcounter{excounter}{1}
+\input{chapter-compilation/chapter-compilation}
+
+\chapter{Memory Management}
+\label{chapter-memory}
+\setcounter{excounter}{1}
+\input{chapter-memory/chapter-memory}
+
+\chapter{Event-Driven Programming}
+\label{chapter-events}
+\setcounter{excounter}{1}
+\input{chapter-events/chapter-events}
+
+\label{epilogue}
+\input{outro/epilogue}
+
+\appendix
+\chapter{Environment and Code Setup}
+\label{appendix-project-setup}
+\input{appendices/appendix-project-setup}
+
+\chapter{Graphics Library Source Code}
+\label{appendix-gfx-library}
+\input{appendices/appendix-gfx-library}
+
+\chapter{Assembly Environment Setup}
+\label{appendix-asm-setup}
+\input{appendices/appendix-asm-setup}
+
+\backmatter
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\footnotesize
+\bibliographystyle{apalike}
+\bibliography{bibliography}
+\nocite{*}
+\printindex
+\end{document}

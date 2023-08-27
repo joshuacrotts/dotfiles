@@ -1,0 +1,33 @@
+<application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.right.0.0.2160.1350@144dpi" width="1976" height="335" />
+    <size key="GridCell.Tab.0.left.0.0.2160.1350@144dpi" width="1976" height="335" />
+    <size key="GridCell.Tab.0.center.0.0.2160.1350@144dpi" width="1976" height="335" />
+    <size key="GridCell.Tab.0.bottom.0.0.2160.1350@144dpi" width="1976" height="335" />
+    <size key="GridCell.Tab.1.left.0.0.2160.1350@144dpi" width="1976" height="348" />
+    <size key="GridCell.Tab.1.center.0.0.2160.1350@144dpi" width="1976" height="348" />
+    <size key="GridCell.Tab.1.right.0.0.2160.1350@144dpi" width="1976" height="348" />
+    <size key="GridCell.Tab.1.bottom.0.0.2160.1350@144dpi" width="1976" height="348" />
+    <size key="GridCell.Tab.0.left.2160.0.1920.1200@144dpi" width="1736" height="313" />
+    <size key="GridCell.Tab.0.center.2160.0.1920.1200@144dpi" width="1736" height="313" />
+    <size key="GridCell.Tab.0.right.2160.0.1920.1200@144dpi" width="1736" height="313" />
+    <size key="GridCell.Tab.0.bottom.2160.0.1920.1200@144dpi" width="1736" height="313" />
+    <size key="GridCell.Tab.0.left.2160.0.1920.1080@144dpi" width="1736" height="335" />
+    <size key="GridCell.Tab.0.center.2160.0.1920.1080@144dpi" width="1736" height="335" />
+    <size key="GridCell.Tab.0.right.2160.0.1920.1080@144dpi" width="1736" height="335" />
+    <size key="GridCell.Tab.0.bottom.2160.0.1920.1080@144dpi" width="1736" height="335" />
+  </component>
+  <component name="WindowManager">
+    <frame x="30" y="72" width="2100" height="1248" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="748" y="319" width="658" height="728" key="FileChooserDialogImpl" timestamp="1692587858757">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state x="748" y="319" width="658" height="728" key="FileChooserDialogImpl/0.0.2160.1350" timestamp="1692587858757" />
+    <state x="680" y="288" width="800" height="789" key="new project wizard" timestamp="1692414698150">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state x="680" y="288" width="800" height="789" key="new project wizard/0.0.2160.1350" timestamp="1692414698150" />
+  </component>
+</application>

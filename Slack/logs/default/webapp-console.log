@@ -1,0 +1,438 @@
+[08/21/23, 10:53:46:745] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.33.90, linux 6.4.11-arch2-1 on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[08/21/23, 10:53:46:745] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 3
+}
+[08/21/23, 10:53:46:745] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/New_York",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.33.90",
+  "PACKAGE_MANIFEST.commit": "1087352",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[08/21/23, 10:53:46:745] info: Starting Sentry (Preload) 
+[08/21/23, 10:53:46:745] info: getSentryDSN: Setting sentry URL to slack.com 
+[08/21/23, 10:53:46:745] info: Creating desktop interface object 
+[08/21/23, 10:53:46:745] info: Exposing context bridge 
+[08/21/23, 10:53:46:745] info: Store: WINDOW_CREATED {
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 320,
+      "y": 150,
+      "width": 800,
+      "height": 600
+    },
+    "hasVibrancy": false
+  }
+} 
+[08/21/23, 10:53:46:745] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 1,
+  "interval": 97
+} 
+[08/21/23, 10:53:46:745] info: Store: UPDATE_SETTINGS {
+  "keyboardLayout": "us"
+} 
+[08/21/23, 10:53:46:745] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "unloaded"
+} 
+[08/21/23, 10:53:46:745] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[08/21/23, 10:53:46:746] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[08/21/23, 10:53:46:746] info: [TRACER] Tracing is not sampled by default for this session. 
+[08/21/23, 10:53:46:746] info: Breadcrumb: navigation: undefined {
+  "from": "/ssb/first?redir=%2Fssb%2Fclient#/",
+  "to": "/ssb/first?redir=%2Fssb%2Fclient#/"
+} 
+[08/21/23, 10:53:46:746] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[08/21/23, 10:53:46:746] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[08/21/23, 10:53:46:746] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 787
+} 
+[08/21/23, 10:53:46:746] info: Store: MAIN_WINDOW_SHOWN  
+[08/21/23, 10:53:46:746] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 208,
+      "y": 66,
+      "width": 1024,
+      "height": 768
+    }
+  }
+} 
+[08/21/23, 10:53:46:746] info: Store: CLEAR_NOTIFICATIONS  
+[08/21/23, 10:53:46:760] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[08/21/23, 10:53:46:820] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error=",
+  "status_code": 200
+} 
+[08/21/23, 10:53:46:823] info: Network status check {
+  "elapsed_time_ms": 113,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[08/21/23, 10:53:46:825] info: Store: SET_NETWORK_STATUS online 
+[08/21/23, 10:53:47:780] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 726,
+      "y": 49,
+      "width": 693,
+      "height": 830
+    }
+  }
+} 
+[08/21/23, 10:54:09:051] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 489,
+      "y": 49,
+      "width": 462,
+      "height": 830
+    }
+  }
+} 
+[08/21/23, 10:54:13:184] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 726,
+      "y": 49,
+      "width": 693,
+      "height": 830
+    }
+  }
+} 
+[08/21/23, 10:54:45:870] info: Store: UPDATE_SETTINGS {
+  "lastClogForProxyInfo": 1692629685866
+} 
+[08/21/23, 10:56:06:765] info: Store: SET_SYSTEM_IDLE idle 
+[08/21/23, 10:56:16:767] info: Store: SET_SYSTEM_IDLE active 
+[08/21/23, 10:58:48:952] info: Store: FOREGROUND_APP  
+[08/21/23, 10:59:03:446] info: Store: FOREGROUND_APP  
+[08/21/23, 10:59:07:739] info: Store: FOREGROUND_APP  
+[08/21/23, 10:59:10:972] info: Store: FOREGROUND_APP  
+[08/21/23, 11:01:17:698] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.33.90, linux 6.4.11-arch2-1 on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[08/21/23, 11:01:17:698] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 4
+}
+[08/21/23, 11:01:17:698] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/New_York",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.33.90",
+  "PACKAGE_MANIFEST.commit": "1087352",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[08/21/23, 11:01:17:698] info: Starting Sentry (Preload) 
+[08/21/23, 11:01:17:698] info: getSentryDSN: Setting sentry URL to slack.com 
+[08/21/23, 11:01:17:698] info: Creating desktop interface object 
+[08/21/23, 11:01:17:698] info: Exposing context bridge 
+[08/21/23, 11:01:17:699] info: Store: WINDOW_CREATED {
+  "type": "main",
+  "id": 2,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 726,
+      "y": 48,
+      "width": 694,
+      "height": 832
+    },
+    "hasVibrancy": false
+  }
+} 
+[08/21/23, 11:01:17:699] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 1,
+  "interval": 116
+} 
+[08/21/23, 11:01:17:699] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "unloaded"
+} 
+[08/21/23, 11:01:17:699] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[08/21/23, 11:01:17:699] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 216
+} 
+[08/21/23, 11:01:17:699] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "type": "auth",
+  "history": "[REDACTED]"
+} 
+[08/21/23, 11:01:17:699] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "page-closed"
+} 
+[08/21/23, 11:01:17:699] info: Store: MAGIC_LOGIN_IN_PROGRESS false 
+[08/21/23, 11:01:17:699] info: Store: REMOVE_WEB_CONTENTS {
+  "id": 1
+} 
+[08/21/23, 11:01:17:699] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[08/21/23, 11:01:17:699] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[08/21/23, 11:01:17:699] info: [TRACER] Tracing is not sampled by default for this session. 
+[08/21/23, 11:01:17:699] info: Breadcrumb: navigation: undefined {
+  "from": "/ssb/first?redir=%2Fssb%2Fclient#/",
+  "to": "/ssb/first?redir=%2Fssb%2Fclient#/"
+} 
+[08/21/23, 11:01:17:699] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[08/21/23, 11:01:17:699] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "loaded"
+} 
+[08/21/23, 11:01:17:699] info: Store: MAIN_WINDOW_SHOWN  
+[08/21/23, 11:01:17:699] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 726,
+      "y": 48,
+      "width": 694,
+      "height": 830
+    }
+  }
+} 
+[08/21/23, 11:01:17:700] info: Store: CLEAR_NOTIFICATIONS  
+[08/21/23, 11:01:17:702] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[08/21/23, 11:01:17:787] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error=",
+  "status_code": 200
+} 
+[08/21/23, 11:01:17:790] info: Network status check {
+  "elapsed_time_ms": 93,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[08/21/23, 11:01:17:792] info: Store: SET_NETWORK_STATUS online 
+[08/21/23, 11:01:18:729] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 726,
+      "y": 49,
+      "width": 693,
+      "height": 830
+    }
+  }
+} 
+[08/21/23, 11:01:20:386] info: Breadcrumb: ui.click: a.c-link.c-button.c-button--primary.c-button--large.p-ssb_landing__button.c-button--focus-visible  
+[08/21/23, 11:01:21:994] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 489,
+      "y": 49,
+      "width": 462,
+      "height": 830
+    }
+  }
+} 
+[08/21/23, 11:02:17:898] info: Breadcrumb: ui.click: h1.p-ssb_landing__header  
+[08/21/23, 11:02:22:105] info: Store: QUIT_APP  
+[08/21/23, 11:02:22:123] info: Store: DOWNLOADS_CLEANED_UP  
+[08/21/23, 11:02:22:892] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "page-closed"
+} 
+[08/22/23, 22:15:52:661] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.33.90, linux 6.4.11-arch2-1 on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[08/22/23, 22:15:52:661] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 3
+}
+[08/22/23, 22:15:52:661] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/New_York",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.33.90",
+  "PACKAGE_MANIFEST.commit": "1087352",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[08/22/23, 22:15:52:662] info: Starting Sentry (Preload) 
+[08/22/23, 22:15:52:662] info: getSentryDSN: Setting sentry URL to slack.com 
+[08/22/23, 22:15:52:662] info: Creating desktop interface object 
+[08/22/23, 22:15:52:662] info: Exposing context bridge 
+[08/22/23, 22:15:52:662] info: Store: WINDOW_CREATED {
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 488,
+      "y": 48,
+      "width": 464,
+      "height": 832
+    },
+    "hasVibrancy": false
+  }
+} 
+[08/22/23, 22:15:52:662] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 1,
+  "interval": 106
+} 
+[08/22/23, 22:15:52:662] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "unloaded"
+} 
+[08/22/23, 22:15:52:662] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[08/22/23, 22:15:52:662] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[08/22/23, 22:15:52:662] info: [TRACER] Tracing is not sampled by default for this session. 
+[08/22/23, 22:15:52:662] info: Breadcrumb: navigation: undefined {
+  "from": "/ssb/first?redir=%2Fssb%2Fclient#/",
+  "to": "/ssb/first?redir=%2Fssb%2Fclient#/"
+} 
+[08/22/23, 22:15:52:662] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[08/22/23, 22:15:52:662] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[08/22/23, 22:15:52:662] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 862
+} 
+[08/22/23, 22:15:52:662] info: Store: MAIN_WINDOW_SHOWN  
+[08/22/23, 22:15:52:662] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 488,
+      "y": 48,
+      "width": 462,
+      "height": 830
+    }
+  }
+} 
+[08/22/23, 22:15:52:662] info: Store: CLEAR_NOTIFICATIONS  
+[08/22/23, 22:15:52:665] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[08/22/23, 22:15:52:790] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error=",
+  "status_code": 200
+} 
+[08/22/23, 22:15:52:791] info: Network status check {
+  "elapsed_time_ms": 134,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[08/22/23, 22:15:52:792] info: Store: SET_NETWORK_STATUS online 
+[08/22/23, 22:15:53:693] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 726,
+      "y": 49,
+      "width": 693,
+      "height": 830
+    }
+  }
+} 
+[08/22/23, 22:15:55:936] info: Breadcrumb: ui.click: a.c-link.c-button.c-button--primary.c-button--large.p-ssb_landing__button.c-button--focus-visible  
+[08/22/23, 22:15:57:550] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 489,
+      "y": 49,
+      "width": 462,
+      "height": 830
+    }
+  }
+} 
+[08/22/23, 22:16:00:445] info: Breadcrumb: ui.click: div.p-ssb_landing__primary_content.padding_bottom_400  
+[08/22/23, 22:16:00:494] info: Store: QUIT_APP  
+[08/22/23, 22:16:00:514] info: Store: DOWNLOADS_CLEANED_UP  
+[08/22/23, 22:16:00:518] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "page-closed"
+} 

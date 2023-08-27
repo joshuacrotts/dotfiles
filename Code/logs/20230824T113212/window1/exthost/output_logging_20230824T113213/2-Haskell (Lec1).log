@@ -1,0 +1,170 @@
+2023-08-24 15:32:22.4430000 [client] INFO Finding haskell-language-server
+2023-08-24 15:32:22.4440000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:22.4520000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:22.4530000 [client] INFO Executing 'ghcup --no-verbose upgrade' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:22.6140000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:22.6190000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:22.6190000 [client] INFO Executing 'ghcup --no-verbose list -t hls -c installed -r' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:22.6750000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:22.6810000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:22.6810000 [client] INFO Executing 'ghcup --no-verbose list -t cabal -c installed -r' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:22.7370000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:22.7420000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:22.7430000 [client] INFO Executing 'ghcup --no-verbose list -t stack -c installed -r' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:22.8050000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:22.8100000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:22.8100000 [client] INFO Executing 'ghcup --no-verbose whereis hls 2.1.0.0' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:22.8260000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:22.8310000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:22.8320000 [client] INFO Executing 'ghcup --no-verbose whereis cabal 3.6.2.0' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:22.8470000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:22.8530000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:22.8530000 [client] INFO Executing 'ghcup --no-verbose whereis stack 2.11.1' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:22.8750000 [client] INFO Executing 'ghc --numeric-version' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:22.9940000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:22.9990000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:22.9990000 [client] INFO Executing 'ghcup --no-verbose run --hls 2.1.0.0 --cabal 3.6.2.0 --stack 2.11.1 --install' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:23.0550000 [client] INFO Working out the project GHC version. This might take a while...
+2023-08-24 15:32:23.0550000 [client] INFO Executing 'haskell-language-server-wrapper --project-ghc-version' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:23.9110000 [client] INFO The GHC version for the project or file: 9.4.5
+2023-08-24 15:32:24.1420000 [client] INFO Platform constants: Linux_UnknownLinux, A_64
+2023-08-24 15:32:24.1430000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:24.1550000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:24.1570000 [client] INFO Executing 'ghcup --no-verbose list -t hls -c installed -r' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:24.2280000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:24.2320000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:24.2330000 [client] INFO Executing 'ghcup --no-verbose whereis bindir' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:24.2490000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:24.2570000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:24.2580000 [client] INFO Executing 'ghcup --no-verbose whereis hls 2.1.0.0' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:24.2760000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:24.2820000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:24.2830000 [client] INFO Executing 'ghcup --no-verbose whereis ghc 9.4.5' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:24.3000000 [client] INFO Checking for ghcup installation
+2023-08-24 15:32:24.3090000 [client] INFO found ghcup at ghcup
+2023-08-24 15:32:24.3100000 [client] INFO Executing 'ghcup --no-verbose run --hls 2.1.0.0 --cabal 3.6.2.0 --stack 2.11.1 --ghc 9.4.5 --install' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1'
+2023-08-24 15:32:24.3680000 [client] INFO Activating the language server in working dir: /home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1 (the workspace folder)
+2023-08-24 15:32:24.3690000 [client] INFO run command: /home/joshuacrotts/.ghcup/tmp/ghcup-ghc-9.4.5_cabal-3.6.2.0_hls-2.1.0.0_stack-2.11.1/haskell-language-server-wrapper --lsp
+2023-08-24 15:32:24.3690000 [client] INFO debug command: /home/joshuacrotts/.ghcup/tmp/ghcup-ghc-9.4.5_cabal-3.6.2.0_hls-2.1.0.0_stack-2.11.1/haskell-language-server-wrapper --lsp
+2023-08-24 15:32:24.3690000 [client] INFO server environment variables:
+2023-08-24 15:32:24.3690000 [client] INFO   PATH=/home/joshuacrotts/.ghcup/tmp/ghcup-ghc-9.4.5_cabal-3.6.2.0_hls-2.1.0.0_stack-2.11.1:/home/joshuacrotts/.cabal/bin:/home/joshuacrotts/.ghcup/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2023-08-24 15:32:24.3730000 [client] INFO Starting language server
+No 'hie.yaml' found. Try to discover the project type!
+Run entered for haskell-language-server-wrapper(haskell-language-server-wrapper) Version 2.1.0.0 x86_64 ghc-8.10.7
+Current directory: /home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1
+Operating system: linux
+Arguments: ["--lsp"]
+Cradle directory: /home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1
+Cradle type: Stack
+
+Tool versions found on the $PATH
+cabal:          3.6.2.0
+stack:          2.11.1
+ghc:            9.4.5
+
+
+Consulting the cradle to get project GHC version...
+2023-08-24T15:32:24.464656Z | Debug | executing command: stack setup --silent
+2023-08-24T15:32:24.947721Z | Debug | executing command: stack exec ghc -- --numeric-version
+Project GHC version: 9.4.5
+haskell-language-server exe candidates: ["haskell-language-server-9.4.5","haskell-language-server"]
+Launching haskell-language-server exe at:/home/joshuacrotts/.ghcup/tmp/ghcup-ghc-9.4.5_cabal-3.6.2.0_hls-2.1.0.0_stack-2.11.1/haskell-language-server-9.4.5
+2023-08-24T15:32:25.178084Z | Debug | executing command: stack setup --silent
+2023-08-24T15:32:25.651547Z | Debug | executing command: stack exec ghc -- -v0 -package-env=- -ignore-dot-ghci -e Control.Monad.join (Control.Monad.fmap System.IO.putStr System.Environment.getExecutablePath)
+2023-08-24T15:32:25.912914Z | Debug | executing command: stack setup --silent
+2023-08-24T15:32:26.376768Z | Debug | executing command: stack exec ghc -- --print-libdir
+2023-08-24T15:32:28.116499Z | Info | haskell-language-server version: 2.1.0.0 (GHC: 9.4.5) (PATH: /home/joshuacrotts/.ghcup/hls/2.1.0.0/lib/haskell-language-server-2.1.0.0/bin/haskell-language-server-9.4.5)
+2023-08-24T15:32:28.117589Z | Info | Directory: /home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1
+2023-08-24T15:32:28.117874Z | Info | Starting (haskell-language-server) LSP server...
+  GhcideArguments {argsCommand = LSP, argsCwd = Nothing, argsShakeProfiling = Nothing, argsTesting = False, argsExamplePlugin = False, argsLogLevel = Info, argsLogFile = Nothing, argsLogStderr = True, argsLogClient = False, argsThreads = 0, argsProjectGhcVersion = False}
+  PluginIds: [ pragmas-suggest
+             , pragmas-completion
+             , retrie
+             , ghcide-completions
+             , alternateNumberFormat
+             , ghcide-code-actions-bindings
+             , explicit-fields
+             , ghcide-hover-and-symbols
+             , ghcide-code-actions-type-signatures
+             , floskell
+             , fourmolu
+             , ghcide-extend-import-action
+             , ghcide-code-actions-fill-holes
+             , importLens
+             , LSPRecorderCallback
+             , cabal
+             , qualifyImportedNames
+             , moduleName
+             , splice
+             , stylish-haskell
+             , changeTypeSignature
+             , hlint
+             , class
+             , ormolu
+             , callHierarchy
+             , ghcide-type-lenses
+             , codeRange
+             , cabal-fmt
+             , eval
+             , rename
+             , ghcide-code-actions-imports-exports
+             , gadt
+             , overloaded-record-dot
+             , ghcide-core
+             , explicit-fixity
+             , pragmas-disable ]
+2023-08-24T15:32:28.120125Z | Info | Logging heap statistics every 60.00s
+ 2023-08-24T15:32:28.124304Z | Info | Starting LSP server...
+  If you are seeing this in a terminal, you probably should have run WITHOUT the --lsp option!
+  PluginIds: [ pragmas-suggest
+             , pragmas-completion
+             , retrie
+             , ghcide-completions
+             , alternateNumberFormat
+             , ghcide-code-actions-bindings
+             , explicit-fields
+             , ghcide-hover-and-symbols
+             , ghcide-code-actions-type-signatures
+             , floskell
+             , fourmolu
+             , ghcide-extend-import-action
+             , ghcide-code-actions-fill-holes
+             , importLens
+             , LSPRecorderCallback
+             , cabal
+             , qualifyImportedNames
+             , moduleName
+             , splice
+             , stylish-haskell
+             , changeTypeSignature
+             , hlint
+             , class
+             , ormolu
+             , callHierarchy
+             , ghcide-type-lenses
+             , codeRange
+             , cabal-fmt
+             , eval
+             , rename
+             , ghcide-code-actions-imports-exports
+             , gadt
+             , overloaded-record-dot
+             , ghcide-core
+             , explicit-fixity
+             , pragmas-disable ]
+2023-08-24T15:32:28.124556Z | Info | Starting server
+2023-08-24T15:32:28.144855Z | Info | Started LSP server in 0.02s
+2023-08-24T15:32:28.825727Z | Info | Registering IDE configuration: IdeConfiguration {workspaceFolders = fromList [NormalizedUri (-8442762591349617052) "file:///home/joshuacrotts/files/college/iu/fall-2023/p424/lectures/Lec1"], clientSettings = hashed Nothing}
+2023-08-24T15:32:28.846871Z | Info | Cradle path: src/Lib.hs
+2023-08-24T15:32:28.847019Z | Warning | No [cradle](https://github.com/mpickering/hie-bios#hie-bios) found for src/Lib.hs.
+Proceeding with [implicit cradle](https://hackage.haskell.org/package/implicit-hie).
+You should ignore this message, unless you see a 'Multi Cradle: No prefixes matched' error.
+2023-08-24T15:32:28.849378Z | Info | invoking build tool to determine build flags (this may take some time depending on the cache)
+2023-08-24T15:32:31.045649Z | Info | Interface files cache directory: /home/joshuacrotts/.cache/ghcide/main-02132a26ba3b0b904e305cdfd812df4d08fe65a1-02132a26ba3b0b904e305cdfd812df4d08fe65a1
+2023-08-24T15:32:31.046653Z | Info | Making new HscEnv. In-place unit ids: [ main-02132a26ba3b0b904e305cdfd812df4d08fe65a1 ]
+2023-08-24T15:33:28.149702Z | Info | Live bytes: 23.08MB Heap size: 578.81MB
+2023-08-24T15:34:28.209658Z | Info | Live bytes: 23.08MB Heap size: 578.81MB
+2023-08-24T15:35:28.270425Z | Info | Live bytes: 23.08MB Heap size: 578.81MB
+2023-08-24T15:36:28.331015Z | Info | Live bytes: 23.08MB Heap size: 578.81MB
+2023-08-24T15:37:28.341392Z | Info | Live bytes: 23.08MB Heap size: 578.81MB
+2023-08-24T15:38:16.678752Z | Info | Reactor thread stopped

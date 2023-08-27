@@ -1,0 +1,10 @@
+[7999:0821/105345.760404:ERROR:object_proxy.cc(590)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.systemd1.UnitMasked: Unit xdg-desktop-portal.service is masked.
+[7999:0821/105345.850479:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[7999:0821/105345.895202:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[9643:0821/110116.699702:ERROR:object_proxy.cc(590)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.systemd1.UnitMasked: Unit xdg-desktop-portal.service is masked.
+[9643:0821/110116.779719:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[9643:0821/110116.838876:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[10615:0822/221551.562464:ERROR:object_proxy.cc(590)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.systemd1.UnitMasked: Unit xdg-desktop-portal.service is masked.
+[10615:0822/221551.683058:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[10615:0822/221551.730067:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[10654:0822/221600.555821:WARNING:spdy_session.cc(3491)] Received HEADERS for invalid stream 3

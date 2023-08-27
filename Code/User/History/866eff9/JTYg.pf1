@@ -1,0 +1,6 @@
+(include "stdlib.scm")
+
+(define-macro (for/list id iter body)
+  (map (lambda (id) body) iter))
+
+(for/list i '(1 2 3 4) (* i i))

@@ -1,0 +1,125 @@
+[INFO] [ghostText] [2023-08-27T18:14:46.470Z] Cancelled after extractPrompt
+[INFO] [ghostText] [2023-08-27T18:14:46.473Z] Cancelled after extractPrompt
+[INFO] [ghostText] [2023-08-27T18:14:46.476Z] Cancelled after extractPrompt
+[INFO] [ghostText] [2023-08-27T18:14:46.478Z] Cancelled after extractPrompt
+[INFO] [default] [2023-08-27T18:14:46.631Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:14:46.933Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 301 ms
+[INFO] [streamChoices] [2023-08-27T18:14:46.938Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:14:46.946Z] request done: headerRequestId: [762537ba-b295-42a9-b046-ceaad35893a7] model deployment ID: [x43c9b5e45a36]
+[INFO] [ghostText] [2023-08-27T18:19:12.647Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:19:12.782Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:13.073Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:13.434Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 360 ms
+[INFO] [streamChoices] [2023-08-27T18:19:13.435Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:13.436Z] request done: headerRequestId: [209d0f04-fedf-467d-80ce-95f6bae5bb9e] model deployment ID: [x43c9b5e45a36]
+[INFO] [ghostText] [2023-08-27T18:19:13.577Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:13.862Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:14.066Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:14.181Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:14.718Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:19:14.856Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:15.148Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 291 ms
+[INFO] [streamChoices] [2023-08-27T18:19:15.150Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:15.153Z] request done: headerRequestId: [dd013033-74de-4c56-8e4c-89c2f8094cc7] model deployment ID: [x43c9b5e45a36]
+[INFO] [default] [2023-08-27T18:19:20.978Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:21.160Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 182 ms
+[INFO] [streamChoices] [2023-08-27T18:19:21.162Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:21.165Z] request done: headerRequestId: [908cb55f-5b08-4c92-ac8a-fb022a5edbcd] model deployment ID: [x43c9b5e45a36]
+[INFO] [default] [2023-08-27T18:19:22.396Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:22.535Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 139 ms
+[INFO] [streamChoices] [2023-08-27T18:19:22.537Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:22.541Z] request done: headerRequestId: [0ac9d1ca-0267-440b-906b-5dfafe0a9e0a] model deployment ID: [x43c9b5e45a36]
+[INFO] [ghostText] [2023-08-27T18:19:23.251Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:23.253Z] Filtered out solution matching next line
+[INFO] [default] [2023-08-27T18:19:23.547Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:23.769Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 221 ms
+[INFO] [streamChoices] [2023-08-27T18:19:23.771Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:23.773Z] request done: headerRequestId: [274fd797-18fa-4544-9882-2a19b656aa76] model deployment ID: [x43c9b5e45a36]
+[INFO] [default] [2023-08-27T18:19:25.937Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-08-27T18:19:26.112Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:26.437Z] Cancelled during debounce
+[INFO] [ghostText] [2023-08-27T18:19:26.643Z] Cancelled during debounce
+[INFO] [ghostText] [2023-08-27T18:19:26.772Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:19:26.889Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:27.063Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 174 ms
+[INFO] [streamChoices] [2023-08-27T18:19:27.065Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:27.067Z] request done: headerRequestId: [02f5bf57-ab47-4774-9ebf-29c53aa535ee] model deployment ID: [x43c9b5e45a36]
+[INFO] [ghostText] [2023-08-27T18:19:27.571Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:27.571Z] Filtered out solution matching next line
+[INFO] [default] [2023-08-27T18:19:32.257Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-08-27T18:19:32.466Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:19:32.552Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:32.814Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 262 ms
+[INFO] [streamChoices] [2023-08-27T18:19:32.815Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:32.816Z] request done: headerRequestId: [8b6446c4-9970-4baa-bfef-767a536a1e99] model deployment ID: [x43c9b5e45a36]
+[INFO] [ghostText] [2023-08-27T18:19:33.167Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:19:33.297Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-08-27T18:19:33.499Z] Cancelled during debounce
+[INFO] [ghostText] [2023-08-27T18:19:33.664Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:19:33.801Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:34.063Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-08-27T18:19:34.422Z] Cancelled during debounce
+[INFO] [ghostText] [2023-08-27T18:19:34.553Z] Cancelled during debounce
+[INFO] [ghostText] [2023-08-27T18:19:34.708Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:19:34.798Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:35.026Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:35.217Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:35.435Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 217 ms
+[INFO] [streamChoices] [2023-08-27T18:19:35.436Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:35.436Z] request done: headerRequestId: [d161e8d8-6550-4033-9732-a778f4ffdb75] model deployment ID: [x43c9b5e45a36]
+[INFO] [ghostText] [2023-08-27T18:19:35.548Z] Found inline suggestions locally
+[INFO] [default] [2023-08-27T18:19:35.868Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:36.113Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-08-27T18:19:36.346Z] Cancelled during debounce
+[INFO] [ghostText] [2023-08-27T18:19:36.483Z] Cancelled during debounce
+[INFO] [ghostText] [2023-08-27T18:19:36.591Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:19:36.761Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:37.064Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:37.194Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 129 ms
+[INFO] [streamChoices] [2023-08-27T18:19:37.195Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:37.196Z] request done: headerRequestId: [6f515353-c4ce-4801-afe0-085d34ff7344] model deployment ID: [x43c9b5e45a36]
+[INFO] [ghostText] [2023-08-27T18:19:37.351Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:37.352Z] Filtered out solution matching next line
+[INFO] [default] [2023-08-27T18:19:54.513Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-08-27T18:19:54.685Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:19:54.838Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:19:55.182Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 344 ms
+[INFO] [streamChoices] [2023-08-27T18:19:55.184Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:19:55.187Z] request done: headerRequestId: [67c8ce2f-5857-401f-942a-e4a3d051551d] model deployment ID: [x43c9b5e45a36]
+[INFO] [ghostText] [2023-08-27T18:19:55.640Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:55.741Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:56.009Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:56.136Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:56.421Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:56.521Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:56.735Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:19:56.844Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:20:01.761Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:20:02.258Z] Found inline suggestions locally
+[INFO] [default] [2023-08-27T18:20:03.289Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-08-27T18:20:03.626Z] Cancelled during debounce
+[INFO] [ghostText] [2023-08-27T18:20:03.746Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:20:03.845Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:20:04.096Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 251 ms
+[INFO] [streamChoices] [2023-08-27T18:20:04.098Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:20:04.100Z] request done: headerRequestId: [ffb45994-45dc-41bc-8211-1c9a271ecd4a] model deployment ID: [x43c9b5e45a36]
+[INFO] [default] [2023-08-27T18:20:04.349Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:20:04.579Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 230 ms
+[INFO] [streamChoices] [2023-08-27T18:20:04.580Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:20:04.582Z] request done: headerRequestId: [483d06ae-3ac1-4e5d-9bb4-94838f82fd32] model deployment ID: [x43c9b5e45a36]
+[INFO] [ghostText] [2023-08-27T18:20:04.876Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-08-27T18:20:05.779Z] Cancelled during debounce
+[INFO] [ghostText] [2023-08-27T18:20:05.891Z] Cancelled during debounce
+[INFO] [default] [2023-08-27T18:20:06.036Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:20:06.273Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 236 ms
+[INFO] [streamChoices] [2023-08-27T18:20:06.275Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:20:06.277Z] request done: headerRequestId: [ccc7a1f5-b98c-4fb3-9feb-2b539adc7851] model deployment ID: [x43c9b5e45a36]
+[INFO] [default] [2023-08-27T18:20:06.438Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:20:06.652Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 213 ms
+[INFO] [streamChoices] [2023-08-27T18:20:06.654Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:20:06.655Z] request done: headerRequestId: [d7433048-a1f8-4302-85a7-755b7e84b560] model deployment ID: [x43c9b5e45a36]
+[INFO] [default] [2023-08-27T18:20:26.845Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:20:57.490Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-08-27T18:20:57.736Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 246 ms
+[INFO] [streamChoices] [2023-08-27T18:20:57.738Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-08-27T18:20:57.740Z] request done: headerRequestId: [c90ccdf8-5f23-4552-a008-2da4f238e116] model deployment ID: [x43c9b5e45a36]

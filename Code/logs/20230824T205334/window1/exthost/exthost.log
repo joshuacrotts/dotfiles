@@ -1,0 +1,1310 @@
+2023-08-24 20:53:35.463 [info] Extension host with pid 6487 started
+2023-08-24 20:53:35.463 [info] Skipping acquiring lock for /home/joshuacrotts/.config/Code/User/workspaceStorage/454e359b8d96974e0afbc4df66e47a8f.
+2023-08-24 20:53:35.509 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-24 20:53:35.517 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-08-24 20:53:35.522 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-08-24 20:53:35.835 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-24 20:53:35.871 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-08-24 20:53:35.927 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-24 20:53:35.945 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-24 20:53:36.035 [info] Eager extensions activated
+2023-08-24 20:53:36.083 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-24 20:53:36.085 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-24 20:53:36.091 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-08-24 20:53:36.673 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-24 20:53:36.709 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-24 20:53:42.950 [info] ExtensionService#_doActivateExtension justusadam.language-haskell, startup: false, activationEvent: 'onLanguage:haskell', root cause: haskell.haskell
+2023-08-24 20:53:42.957 [info] ExtensionService#_doActivateExtension haskell.haskell, startup: false, activationEvent: 'onLanguage:haskell'
+2023-08-24 20:53:46.337 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:53:46.337 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:53:56.674 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:53:56.674 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:01.313 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:01.313 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:01.780 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:01.781 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:02.265 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:02.265 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:03.028 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:03.028 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:03.910 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:03.911 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:04.110 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:04.110 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:04.797 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:04.797 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:05.234 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:05.234 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:05.999 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:05.999 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:06.336 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:06.336 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:07.392 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:07.392 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:07.670 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:07.670 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:08.505 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:08.505 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:08.919 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:08.919 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:09.418 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:09.418 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:09.805 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:09.805 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:10.061 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:10.061 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:10.620 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:10.620 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:10.969 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:10.970 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:11.977 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:11.977 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:33.738 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:33.739 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:33.994 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:33.994 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:34.025 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:34.025 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:34.099 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:34.099 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:34.273 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:34.273 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:34.375 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:34.376 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:34.826 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:34.826 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:35.665 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:35.666 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:35.746 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:35.746 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:35.780 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:35.780 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:35.886 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:35.886 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:35.991 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:35.991 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:36.086 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:36.086 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:36.113 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:54:36.113 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:54:52.406 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-08-24 20:55:05.814 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:05.814 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:09.394 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:09.395 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:10.625 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:10.626 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:11.098 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:11.099 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:13.515 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:13.515 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:14.031 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:14.031 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:14.614 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:14.614 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:14.723 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:14.723 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:14.753 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:14.753 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:15.043 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:15.043 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:17.081 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:17.081 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:44.896 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:44.896 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:45.629 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:45.629 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:46.065 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:46.066 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:47.653 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:47.653 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:48.088 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:48.089 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:49.465 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:49.466 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:52.504 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:52.504 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:53.356 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:53.356 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:55.393 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:55.393 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:56.409 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:56.409 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:55:57.663 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:55:57.663 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:00.353 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:00.353 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:01.492 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:01.492 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:04.419 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:04.419 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:31.942 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:31.942 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:32.006 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:32.006 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:32.026 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:32.026 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:32.316 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:32.316 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:32.522 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:32.522 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:32.740 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:32.740 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:33.140 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:33.140 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:34.028 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:34.029 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:35.125 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:35.125 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:35.596 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:35.596 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:35.886 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:35.886 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:36.873 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:36.874 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:38.107 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:38.107 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:38.809 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:38.809 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:41.152 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:41.152 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:41.911 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:41.911 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:42.120 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:42.120 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:42.168 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:42.168 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:42.242 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:42.242 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:42.564 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:42.564 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:43.458 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:43.459 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:43.876 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:43.876 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:49.378 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:49.379 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:50.032 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:50.032 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:50.241 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:50.241 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:50.302 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:50.302 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:50.340 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:50.341 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:50.677 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:50.677 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:51.320 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:51.320 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:51.910 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:51.911 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:53.361 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:53.361 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:53.454 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:53.454 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:53.732 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:53.732 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:53.850 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:53.850 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:54.000 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:54.000 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:54.552 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:54.552 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:59.049 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:59.049 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:56:59.323 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:56:59.323 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:00.546 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:00.546 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:01.240 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:01.240 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:01.317 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:01.317 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:01.426 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:01.426 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:01.662 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:01.662 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:01.942 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:01.943 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:02.659 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:02.659 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:05.148 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:05.148 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:08.235 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:08.235 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:08.778 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:08.778 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:11.356 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:11.356 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:11.404 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:11.405 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:11.498 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:11.498 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:11.777 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:11.777 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:16.004 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:16.005 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:16.104 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:16.104 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:16.451 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:16.452 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:17.355 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:17.355 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:17.689 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:17.689 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:18.251 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:18.251 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:18.732 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:18.733 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:27.034 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:27.034 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:28.664 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:28.664 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:30.020 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:30.020 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:30.302 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:30.302 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:31.866 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:31.866 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:32.017 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:32.017 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:32.036 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:32.036 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:32.323 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:32.323 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:34.426 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:34.426 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:34.951 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:34.951 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:35.238 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:35.238 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:35.797 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:35.798 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:36.838 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:36.838 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:43.386 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:43.386 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:43.919 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:43.919 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:44.185 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:44.185 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:44.474 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:44.474 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:47.027 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:47.028 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:57:48.990 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:57:48.991 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:47.545 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:47.545 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:47.587 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:47.587 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:47.637 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:47.637 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:49.072 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:49.072 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:49.482 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:49.482 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:49.540 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:49.540 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:49.564 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:49.564 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:50.271 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:50.271 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:50.366 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:50.366 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:50.464 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:50.464 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:50.867 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:50.867 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:50.976 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:50.976 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:51.015 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:51.015 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:51.300 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:51.300 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:51.342 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:51.343 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:51.563 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:51.564 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:53.447 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:53.447 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:54.303 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:54.303 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:54.356 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:54.356 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:54.635 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:54.635 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:54.883 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:54.883 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:55.287 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:55.288 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:55.893 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:55.893 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:55.953 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:55.953 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:58:56.234 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:58:56.235 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:00.297 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:00.297 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:03.122 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:03.122 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:03.192 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:03.192 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:03.294 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:03.294 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:03.422 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:03.423 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:03.463 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:03.463 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:03.750 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:03.750 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:04.376 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:04.376 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:06.512 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:06.512 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:11.569 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:11.569 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:12.380 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:12.380 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:12.686 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:12.686 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:13.095 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:13.095 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:14.155 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:14.155 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:15.480 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:15.480 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:15.890 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:15.890 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:17.322 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:17.323 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:24.563 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:24.563 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:24.932 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:24.933 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:28.723 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:28.724 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:29.078 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:29.078 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:29.582 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:29.583 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:30.373 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:30.373 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:34.535 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:34.535 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:35.025 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:35.025 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:36.448 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:36.448 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:37.442 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:37.443 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:37.855 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:37.855 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:38.831 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:38.832 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:38.942 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:38.942 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:39.306 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:39.306 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:40.365 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:40.365 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:41.107 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:41.107 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:41.394 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:41.395 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:42.234 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:42.234 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 20:59:44.785 [error] [haskell.haskell] provider FAILED
+2023-08-24 20:59:44.785 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:51.080 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:51.080 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:51.178 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:51.178 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:51.218 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:51.218 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:51.572 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:51.572 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:51.877 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:51.877 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:51.968 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:51.968 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:52.252 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:52.252 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:52.354 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:52.354 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:52.529 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:52.529 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:52.595 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:52.595 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:52.880 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:52.880 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:00:56.240 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:00:56.240 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:03:03.336 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:03:03.336 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:03:03.866 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:03:03.867 [error] Error: codeRange: Rule Failed: GetCodeRange
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:20:05.235 [error] [haskell.haskell] provider FAILED
+2023-08-24 21:20:05.235 [error] Error: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:82749
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83043
+    at Immediate.<anonymous> (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:83408)
+    at processImmediate (node:internal/timers:466:21)
+2023-08-24 21:20:08.994 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-24 21:20:09.033 [info] Extension host with pid 6487 exiting with code 0

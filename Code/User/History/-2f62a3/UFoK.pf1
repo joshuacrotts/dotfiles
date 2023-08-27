@@ -1,0 +1,4 @@
+(printf "~a~n" (number->string 57.85))
+(printf "~a~n" (string->number "200.325"))
+(printf "~a~n" (number->char 80))
+(printf "~a" (char->number #\P))

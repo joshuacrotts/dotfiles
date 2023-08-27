@@ -1,0 +1,50 @@
+Either
+Either (1 2)
+(Either 1 2)
+Either 1 2
+(Left (1, 2))
+(Left (a, b))
+largest [4,5555,3]
+largest [4,5555,3]
+largest [4,2,3]
+largest [1,2,3]
+checkSum [4,6,2]
+checkSum [1,2,3]
+mul [1,2,3,4,5]
+mul [1,2,3]
+squares [1, 2,3]
+lengths ["car", "cdr"]
+triplicate []
+triplicate [1, 2, 3]
+allEven []
+allEven [2, 4, 1]
+allEven [2, 4, 8]
+q
+:t merge
+:t merge
+(quit)
+(exit)
+merge [9, 12, 18, 25, 27, 28, 29] [1, 2, 3, 10, 11, 15, 21, 26]
+(exit)
+q
+merge [9, 12, 18, 25, 27, 28, 29] [1, 2, 3, 10, 11, 15, 21, 26]
+merge [9, 12, 18, 25, 27, 28, 29] [1, 2, 3, 10, 11, 15, 21, 26]
+fact 5
+fact' (- 5)
+fact (- 5)
+fact -5
+fact' -5
+fact' -1
+fact' 5
+q
+removeDups [1, 8, 8, 2, 3, 4, 5, 1, 2, 4]
+removeDups [5, 6, 3, 1, 2, 2, 3, 4, 1, 2, 9]
+terminate
+quit
+exit
+exit
+quit
+q
+removeDups [5, 6, 3, 1, 2, 2, 3, 4, 1, 2, 9]
+removeDups [5, 6, 3, 1, 2, 2, 3, 4, 1, 2, 9]
+removeDupsHelper [5, 6, 3, 1, 2, 2, 3, 4, 1, 2, 9]

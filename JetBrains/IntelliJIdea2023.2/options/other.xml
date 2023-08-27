@@ -1,0 +1,95 @@
+<application>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Oracle OpenJDK 20.0.2" />
+        <option name="installDir" value="$USER_HOME$/.jdks/openjdk-20.0.2" />
+        <option name="sha256" value="beaf61959c2953310595e1162b0c626aef33d58628771033ff2936609661956c" />
+        <option name="url" value="https://download.java.net/java/GA/jdk20.0.2/6e380f22cbe7469fa75fb448bd903d8e/9/GPL/openjdk-20.0.2_linux-x64_bin.tar.gz" />
+        <option name="versionText" value="20.0.2" />
+      </installed-jdk>
+    </option>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Inter" />
+    <option name="fontSize" value="19.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+    <option name="overrideLafFontsWasMigrated" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "FindSplitterProportion": "0.32969853",
+    "JUnitSupport.hidePassedTests": "false",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
+    "NewProjectWizard.addSampleCodeState": "false",
+    "NewProjectWizard.generateOnboardingTips": "true",
+    "NewProjectWizard.groupIdState": "org.example",
+    "NextRunPlatformUpdateBuild": "IU-232.9559.62",
+    "NextRunPlatformUpdateVersion": "2023.2.1",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "appcds.runOnSecondStart": "IU-232.8660.185-a7a323f3e0c9c94d3e482e27921dd5a51e6d13abdf9b1d90da8e8694f2319ab7",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "IU-232.8660.185",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "defaultJdkConfigured": "true",
+    "evlsprt3.232": "24",
+    "experimental.ui.used.once": "true",
+    "file.gist.reindex.count": "23",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "19.5",
+    "fontSizeToResetEditor": "19.5",
+    "gotit.previous.run": "IU-232.8660.185",
+    "ide.memory.adjusted": "true",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "232-1.9.0-IJ8660.185",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "/home/joshuacrotts/files/college/iu/fall-2023/c212/c212-f23/0821",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "onboarding.generation.number": "1",
+    "previousColorScheme": "_@user_Dark",
+    "project.wizard.group": "NPW.simple-project",
+    "registry.to.advanced.settings.migration.build": "IU-232.8660.185",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "5.1.3"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/joshuacrotts/files/college/iu/fall-2023/c212/c212-f23/0821",
+      "/home/joshuacrotts/files/college/iu/fall-2023/c212/c212/f23/assignments/a1/a1-key"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;CtrlW&quot;: 1692414704648,
+    &quot;SpeedSearch&quot;: 1692628963420,
+    &quot;SearchEverywhere&quot;: 1692713542735,
+    &quot;FindReplaceToggle&quot;: 1692563355742
+  },
+  &quot;proposedTips&quot;: {
+    &quot;CtrlW&quot;: 1692414704434,
+    &quot;SpeedSearch&quot;: 1692628963282,
+    &quot;SearchEverywhere&quot;: 1692713542608,
+    &quot;FindReplaceToggle&quot;: 1692563355596
+  },
+  &quot;tipsOrderSeed&quot;: 1692414704376
+}</component>
+</application>

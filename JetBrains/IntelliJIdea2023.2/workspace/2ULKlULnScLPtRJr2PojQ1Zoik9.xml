@@ -1,0 +1,227 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Example" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PrintHelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="6" lastUsed="1692831834705" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/Main.java" />
+      <option value="$PROJECT_DIR$/src/MainTest.java" />
+      <option value="$PROJECT_DIR$/src/PrintHelloWorld.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="6" lastUsage="1692831834705" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/joshuacrotts/files/college/iu/fall-2023/c212/c212-f23/0821/Example}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/joshuacrotts/files/college/iu/fall-2023/c212/c212-f23/0821/Example}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/joshuacrotts/files/college/iu/fall-2023/c212/c212-f23/0821/Example/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="JUnit.MainTest" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$/..">
+        <shellCommand>
+          <arg value="/bin/fish" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MainTest - 2023.08.22 at 10h 19m 50s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2023.08.22 at 10h 19m 59s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="628000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33037636" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32990196" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.32972756" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.32990196" left="0.33037636" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Terminal</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="307" y="69" width="1540" height="1258" key="#Project_Structure" timestamp="1692713579073">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state x="307" y="69" width="1540" height="1258" key="#Project_Structure/0.0.2160.1350@0.0.2160.1350" timestamp="1692713579073" />
+    <state width="1976" height="348" key="GridCell.Tab.0.bottom" timestamp="1692714193693">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state width="1976" height="348" key="GridCell.Tab.0.bottom/0.0.2160.1350@0.0.2160.1350" timestamp="1692714193693" />
+    <state width="1976" height="348" key="GridCell.Tab.0.center" timestamp="1692714193693">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state width="1976" height="348" key="GridCell.Tab.0.center/0.0.2160.1350@0.0.2160.1350" timestamp="1692714193693" />
+    <state width="1976" height="348" key="GridCell.Tab.0.left" timestamp="1692714193693">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state width="1976" height="348" key="GridCell.Tab.0.left/0.0.2160.1350@0.0.2160.1350" timestamp="1692714193693" />
+    <state width="1976" height="348" key="GridCell.Tab.0.right" timestamp="1692714193693">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state width="1976" height="348" key="GridCell.Tab.0.right/0.0.2160.1350@0.0.2160.1350" timestamp="1692714193693" />
+    <state x="612" y="547" width="925" height="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1692713785209">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state x="612" y="547" width="925" height="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2160.1350@0.0.2160.1350" timestamp="1692713785209" />
+    <state x="735" y="405" width="684" height="585" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1692713786588">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state x="735" y="405" width="684" height="585" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2160.1350@0.0.2160.1350" timestamp="1692713786588" />
+    <state x="0" y="0" width="2160" height="1350" key="new project wizard" timestamp="1692714192431">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state x="0" y="0" width="2160" height="1350" key="new project wizard/0.0.2160.1350@0.0.2160.1350" timestamp="1692714192431" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintHelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Example</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+\subsection*{Stack-Based Memory}
+
+When we declare variables within a function, they are stored on the stack. The stack is the location of all locally-defined variables as well as function calls. That is, each call to a function stores an \textit{activation record}\index{activation record} on the stack. We can visualize the stack as a sequence of memory addresses. 
+As we stated, any local variables that are not dynamically allocated via, e.g., \texttt{malloc}, \texttt{calloc}, or \texttt{realloc}, are stored on the stack.\footnote{Recall from Chapter~\ref{chapter-compilation} that variables declared in the \ttt{.data} or \ttt{.bss} segments are not located on the stack in our sense of the term.} When a function terminates, any variables declared within the function are clobbered/destroyed from the stack. 
+
+One important distinction between stack-based variables and heap-allocated memory comes through pointers. Suppose we declare a pointer as follows.
+
+\begin{cl}[]{}\begin{lstlisting}[language=MyC]
+int main(void) {
+ char *foo = NULL;
+ return 0;
+}
+\end{lstlisting}\end{cl}
+
+The pointer, namely \texttt{foo}, is stored on the stack. If we explicitly allocate memory to \texttt{foo} via, e.g., \texttt{malloc}, that allocated memory is stored on the heap. 
+
+Function calls make prolific use of the stack through activation records. As we discussed in Chapter ~\ref{chapter-compilation}, when we call a function, we push the address-to-return, and certain arguments onto the stack. Once we jump to the first instruction of the function in memory, if the function requires space for local variables, we make room for these on the stack by subtracting from the stack pointer. Additionally, some registers are ``callee-saved'', meaning the function must push their contents to the stack. Before returning from a function, we ``de-allocate'' the local variable/alignment space by simply moving the stack pointer back up to its prior location. We end off by popping the callee-saved registers and return address from the stack.\footnote{These definitions and explanations are applicable to AT\&T x64 assembly and do not strictly apply to all variants of assembly and architectures. For example, some architectures and standards require different callee-saved registers.} Due to the fact that registers and stack space are reclaimed or popped off the stack only upon reaching the end of a function, it becomes apparent how non-tail recursive\index{tail recursive} functions can be susceptible to segmentation faults. Consider a never-terminating non-tail recursive\index{tail recursive} factorial function:
+
+\begin{cl}[main.c]{Faulty Non-Tail-Recursive Function}
+\begin{lstlisting}[language=MyC]
+int fact(int n) {
+ if (n == 0) { return 1; }
+ else { return n * fact(n - 1); }
+}
+
+int main(void) {
+ fact(-1);
+ return 0;
+}
+\end{lstlisting}
+\end{cl}
+
+By calling \ttt{fact} with \ttt{-1}, we never reach a base case, meaning we continuously push more and more return addresses, arguments, and callee-saved registers to the stack without ever unwinding any recursive calls. Eventually, the stack runs out of its limited space, resulting in a segmentation fault. In other programming languages with better-detailed error messages, this is known as a \textit{stack overflow}\index{stack overflow} error/exception.

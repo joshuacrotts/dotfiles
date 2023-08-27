@@ -1,0 +1,276 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Testing" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestingMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestingMethodsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="966">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Conditional.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="21" lastUsed="1692982560726" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>???</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>?</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/MainTest.java" />
+      <option value="$PROJECT_DIR$/src/TestingMethods.java" />
+      <option value="$PROJECT_DIR$/src/TestingMethodsTest.java" />
+      <option value="$PROJECT_DIR$/src/Conditional.java" />
+      <option value="$PROJECT_DIR$/src/Main.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="21" lastUsage="1692982560726" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/joshuacrotts/files/college/iu/fall-2023/c212/c212-f23/0823/Testing}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/joshuacrotts/files/college/iu/fall-2023/c212/c212-f23/0823/Testing}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/joshuacrotts/files/college/iu/fall-2023/c212/c212-f23/0823/Testing/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Application.Main" />
+      <element setting="JUnit.TestingMethodsTest.sumOfCubes" />
+      <element setting="JUnit.TestingMethodsTest.combineDigits" />
+      <element setting="JUnit.TestingMethodsTest.fiToCm" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$/../..">
+        <shellCommand>
+          <arg value="/bin/fish" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestingMethodsTest_fiToCm - 2023.08.23 at 18h 50m 12s.xml">
+      <configuration name="TestingMethodsTest.fiToCm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestingMethodsTest_fiToCm - 2023.08.23 at 18h 52m 16s.xml">
+      <configuration name="TestingMethodsTest.fiToCm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestingMethodsTest_combineDigits - 2023.08.23 at 19h 07m 22s.xml">
+      <configuration name="TestingMethodsTest.combineDigits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestingMethodsTest_sumOfCubes - 2023.08.23 at 19h 13m 10s.xml">
+      <configuration name="TestingMethodsTest.sumOfCubes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestingMethodsTest_sumOfCubes - 2023.08.23 at 19h 14m 30s.xml">
+      <configuration name="TestingMethodsTest.sumOfCubes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestingMethodsTest_sumOfCubes - 2023.08.25 at 13h 01m 22s.xml">
+      <configuration name="TestingMethodsTest.sumOfCubes" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6220000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16452381" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.21911764" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.3193109" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.3193109" left="0.16452381" />
+    </layoutV2>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+      <value>Terminal</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1976" height="335" key="GridCell.Tab.0.bottom" timestamp="1692983435736">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state width="1736" height="335" key="GridCell.Tab.0.bottom/0.0.2160.1350/2160.0.1920.1080@2160.0.1920.1080" timestamp="1692832470960" />
+    <state width="1976" height="335" key="GridCell.Tab.0.bottom/0.0.2160.1350@0.0.2160.1350" timestamp="1692983435736" />
+    <state width="1976" height="335" key="GridCell.Tab.0.center" timestamp="1692983435736">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state width="1736" height="335" key="GridCell.Tab.0.center/0.0.2160.1350/2160.0.1920.1080@2160.0.1920.1080" timestamp="1692832470960" />
+    <state width="1976" height="335" key="GridCell.Tab.0.center/0.0.2160.1350@0.0.2160.1350" timestamp="1692983435735" />
+    <state width="1976" height="335" key="GridCell.Tab.0.left" timestamp="1692983435735">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state width="1736" height="335" key="GridCell.Tab.0.left/0.0.2160.1350/2160.0.1920.1080@2160.0.1920.1080" timestamp="1692832470960" />
+    <state width="1976" height="335" key="GridCell.Tab.0.left/0.0.2160.1350@0.0.2160.1350" timestamp="1692983435735" />
+    <state width="1976" height="335" key="GridCell.Tab.0.right" timestamp="1692983435736">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state width="1736" height="335" key="GridCell.Tab.0.right/0.0.2160.1350/2160.0.1920.1080@2160.0.1920.1080" timestamp="1692832470960" />
+    <state width="1976" height="335" key="GridCell.Tab.0.right/0.0.2160.1350@0.0.2160.1350" timestamp="1692983435736" />
+    <state x="2652" y="391" width="925" height="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1692830537612">
+      <screen x="2160" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2652" y="391" width="925" height="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2160.1350/2160.0.1920.1080@2160.0.1920.1080" timestamp="1692830537612" />
+    <state x="2813" y="423" width="608" height="237" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1692833729215">
+      <screen x="2160" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2813" y="423" width="608" height="237" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2160.1350/2160.0.1920.1080@0.0.2160.1350" timestamp="1692833729215" />
+    <state x="2775" y="249" width="684" height="585" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1692832788010">
+      <screen x="2160" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2775" y="249" width="684" height="585" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2160.1350/2160.0.1920.1080@2160.0.1920.1080" timestamp="1692832788010" />
+    <state x="2720" y="147" width="800" height="789" key="new project wizard" timestamp="1692831646359">
+      <screen x="2160" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2720" y="147" width="800" height="789" key="new project wizard/0.0.2160.1350/2160.0.1920.1080@2160.0.1920.1080" timestamp="1692831646359" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/TestingMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestingMethodsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Conditional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

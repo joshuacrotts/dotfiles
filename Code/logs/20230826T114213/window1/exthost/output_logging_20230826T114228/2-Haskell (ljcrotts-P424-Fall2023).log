@@ -1,0 +1,24 @@
+2023-08-26 15:42:30.5990000 [client] INFO Finding haskell-language-server
+2023-08-26 15:42:30.6000000 [client] INFO Checking for ghcup installation
+2023-08-26 15:42:34.9260000 [client] ERROR Error: Project requires GHCup but it isn't installed
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:53513
+    at Generator.next (<anonymous>)
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:49343
+    at new Promise (<anonymous>)
+    at r (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:49088)
+    at w (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:53018)
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:51671
+    at Generator.next (<anonymous>)
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:49343
+    at new Promise (<anonymous>)
+    at r (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:49088)
+    at v (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:51547)
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:52949
+    at Generator.next (<anonymous>)
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:49343
+    at new Promise (<anonymous>)
+    at r (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:49088)
+    at C (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:52727)
+    at /home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:56159
+    at Generator.next (<anonymous>)
+    at s (/home/joshuacrotts/.vscode/extensions/haskell.haskell-2.4.1/dist/extension.js:1:49145)

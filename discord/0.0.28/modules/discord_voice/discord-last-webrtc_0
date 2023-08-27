@@ -1,0 +1,456 @@
+[2023-08-26 20:24:40.816] [5072] (engine.cpp:309): Created native Engine, time: Sat Aug 26 20:24:40 2023 EDT, logPath: /home/joshuacrotts/.config/discord/0.0.28/modules/discord_voice/, logLevel: 2
+[2023-08-26 20:24:40.822] [5072] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-08-26 20:24:40.822] [5072] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-08-26 20:24:40.822] [5072] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:143): current platform is Linux
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:143): current platform is Linux
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-08-26 20:24:40.823] [5072] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-08-26 20:24:40.823] [5072] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-08-26 20:24:40.823] [5072] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-08-26 20:24:40.823] [5072] (audio_engine.cpp:520): Creating audio engine: standard
+[2023-08-26 20:24:40.823] [5072] (audio_device_impl.cc:364): Init
+[2023-08-26 20:24:40.828] [5072] (audio_device_impl.cc:364): Init
+[2023-08-26 20:24:40.829] [5072] (audio_coding.cpp:147): Using software Opus decoder
+[2023-08-26 20:24:40.829] [5072] (audio_coding.cpp:164): Using software Opus encoder
+[2023-08-26 20:24:40.829] [5072] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-08-26 20:24:40.829] [5072] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-08-26 20:24:40.829] [5072] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-26 20:24:40.829] [5072] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-08-26 20:24:40.829] [5072] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-08-26 20:24:40.829] [5072] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-08-26 20:24:40.829] [5072] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-08-26 20:24:40.829] [5072] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:573): output: 0
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-08-26 20:24:40.830] [5072] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-08-26 20:24:40.830] [5072] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-08-26 20:24:40.830] [5072] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-26 20:24:40.830] [5072] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:619): output: 1
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-08-26 20:24:40.830] [5072] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-08-26 20:24:40.830] [5072] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-08-26 20:24:40.830] [5072] (audio_device_impl.cc:914): output: 0
+[2023-08-26 20:24:40.830] [5072] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-08-26 20:24:40.831] [5072] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-08-26 20:24:40.831] [5072] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-08-26 20:24:40.831] [5072] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-08-26 20:24:40.831] [5072] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-08-26 20:24:40.831] [5072] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-08-26 20:24:40.831] [5072] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-08-26 20:24:40.831] [5072] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-08-26 20:24:40.831] [5072] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-08-26 20:24:40.831] [5072] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-08-26 20:24:40.832] [5072] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-08-26 20:24:40.835] [5072] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-08-26 20:24:40.835] [5072] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-08-26 20:24:40.835] [5072] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-08-26 20:24:40.835] [5072] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-08-26 20:24:40.835] [5072] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:573): output: 0
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-08-26 20:24:40.836] [5072] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-08-26 20:24:40.836] [5072] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-08-26 20:24:40.836] [5072] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-26 20:24:40.836] [5072] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:619): output: 1
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-08-26 20:24:40.836] [5072] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-08-26 20:24:40.836] [5072] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-26 20:24:40.836] [5072] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-08-26 20:24:40.836] [5072] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:190): *** OnDevicesChanged:
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:191): * audioInput:
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:196): * audioOutput:
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:190): *** OnDevicesChanged:
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:191): * audioInput:
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:194): - default: Tiger Lake-LP Smart Sound Technology Audio Controller Digital Microphone ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:194): - Tiger Lake-LP Smart Sound Technology Audio Controller Headphones Stereo Microphone ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:194): - Tiger Lake-LP Smart Sound Technology Audio Controller Digital Microphone ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:196): * audioOutput:
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:190): *** OnDevicesChanged:
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:191): * audioInput:
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:194): - default: Tiger Lake-LP Smart Sound Technology Audio Controller Digital Microphone ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:194): - Tiger Lake-LP Smart Sound Technology Audio Controller Headphones Stereo Microphone ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:194): - Tiger Lake-LP Smart Sound Technology Audio Controller Digital Microphone ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:196): * audioOutput:
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:199): - default: Tiger Lake-LP Smart Sound Technology Audio Controller Speaker + Headphones ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:199): - Tiger Lake-LP Smart Sound Technology Audio Controller HDMI / DisplayPort 3 Output ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:199): - Tiger Lake-LP Smart Sound Technology Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:199): - Tiger Lake-LP Smart Sound Technology Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:199): - Tiger Lake-LP Smart Sound Technology Audio Controller Speaker + Headphones ()
+[2023-08-26 20:24:40.836] [5072] (engine.cpp:199): - JamesDSP Sink ()
+[2023-08-26 20:24:41.114] [5041] (discord.cpp:666): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-08-26 20:24:41.210] [5072] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-08-26 20:24:41.210] [5072] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-08-26 20:24:41.210] [5072] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-08-26 20:24:41.210] [5072] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-08-26 20:24:41.210] [5072] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-08-26 20:24:41.210] [5072] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-08-26 20:24:41.211] [5072] (audio_device_impl.cc:573): output: 0
+[2023-08-26 20:24:41.211] [5072] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-08-26 20:24:41.211] [5072] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-08-26 20:24:41.211] [5072] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-26 20:24:41.211] [5072] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-08-26 20:24:41.211] [5072] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-26 20:24:41.211] [5072] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-08-26 20:24:41.211] [5072] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-08-26 20:24:41.211] [5072] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-08-26 20:24:41.211] [5072] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-08-26 20:24:41.212] [5072] (audio_device_impl.cc:619): output: 1
+[2023-08-26 20:24:41.212] [5072] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-08-26 20:24:41.212] [5072] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-08-26 20:24:41.217] [5041] (discord.cpp:666): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-08-26 20:24:41.316] [5041] (discord.cpp:666): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discordapp.com/assets/5859b06f19b2a45f2af2.js:1465:330)\n    at Bn (https://discordapp.com/assets/5859b06f19b2a45f2af2.js:1491:696)\n    at Wn (https://discordapp.com/assets/5859b06f19b2a45f2af2.js:1494:356)\n    at Zn (https://discordapp.com/assets/5859b06f19b2a45f2af2.js:1494:199)\n    at Yn (https://discordapp.com/assets/5859b06f19b2a45f2af2.js:1493:886)\n    at Kn (https://discordapp.com/assets/5859b06f19b2a45f2af2.js:1494:697)\n    at zn (https://discordapp.com/assets/5859b06f19b2a45f2af2.js:1494:731)\n    at i (https://discordapp.com/assets/5859b06f19b2a45f2af2.js:1461:961)\n    at 408481 (https://discordapp.com/assets/165a75b8f8faa1df1646.js:21:346)\n    at l (https://discordapp.com/assets/92c9c7bf7aecd84675c5.js:1:154)\n    at 558820 (https://discordapp.com/assets/165a75b8f8faa1df1646.js:14:338)\n    at l (https://discordapp.com/assets/92c9c7bf7aecd84675c5.js:1:154)\n    at 308739 (https://discordapp.com/assets/165a75b8f8faa1df1646.js:2:331)\n    at l (https://discordapp.com/assets/92c9c7bf7aecd84675c5.js:1:154)\n    at 173242 (https://discordapp.com/assets/0e1297716ce5cd5dc4a9.js:357:101)\n    at l (https://discordapp.com/assets/92c9c7bf7aecd84675c5.js:1:154)\n    at 288754 (https://discordapp.com/assets/db36e642add852df7d80.js:35:174)\n    at Function.l (https://discordapp.com/assets/92c9c7bf7aecd84675c5.js:1:154)"]
+[2023-08-26 20:24:41.359] [5041] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-26 20:24:41.780] [5041] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-08-26 20:24:41.780] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-08-26 20:24:41.780] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-26 20:24:41.781] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-26 20:24:41.781] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-26 20:24:41.781] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-26 20:24:41.781] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2023-08-26 20:24:41.781] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 0 ms"]
+[2023-08-26 20:24:41.782] [5041] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-08-26 20:24:41.782] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-08-26 20:24:41.782] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-08-26 20:24:41.788] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-vv3r: 0, heartbeat interval: 41250, took 7 ms"]
+[2023-08-26 20:24:41.833] [5041] (discord.cpp:666): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-08-26 20:24:41.835] [5041] (discord.cpp:666): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-08-26 20:24:42.404] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 623ms, as 5f8e37b6044ecd47e3b41b5497c9defa via \ngateway-prd-us-east1-c-vv3r: 325.267\n|  id_created: 1.346\n|  session_lookup_time: 2.793\n|  session_lookup_finished: 0.023\n|  discord-sessions-prd-2-98: 310.626\n|  |  start_session: 246.929\n|  |  |  discord-api-995687fdb-jgbl6: 230.945\n|  |  |  |  get_user: 39.883\n|  |  |  |  get_guilds: 37.49\n|  |  |  |  user_settings_proto: 6.639\n|  |  |  |  relationships: 63.194\n|  |  |  |  friend_suggestion: 0.066\n|  |  |  |  connections: 0.204\n|  |  |  |  serialized_read_states: 0.008\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.002\n|  |  |  |  guild_join_requests: 0.002\n|  |  |  |  broadcaster_user_ids: 0.002\n|  |  |  |  user_guild_settings: 0.002\n|  |  |  |  serialized_private_channels: 7.204\n|  |  |  |  user_segments: 0.005\n|  |  |  |  experiments: 19.645\n|  |  |  |  affine_user_ids: 38.902\n|  |  |  |  required_action: 0.005\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.111\n|  |  presence_started: 13.908\n|  |  guilds_started: 0.995\n|  |  guilds_connect: 41.944\n|  |  presence_connect: 0.001\n|  |  connect_finished: 41.965\n|  |  build_ready: 2.802\n|  |  clean_ready: 0.001\n|  |  optimize_ready: 3.755\n|  |  split_ready: 0.156"]
+[2023-08-26 20:24:42.404] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-26 20:24:42.424] [5041] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-08-26 20:24:42.426] [5041] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-08-26 20:24:42.426] [5041] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 468557129284845579, database: undefined)"]
+[2023-08-26 20:24:42.426] [5041] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (468557129284845579 → null)"]
+[2023-08-26 20:24:42.441] [5041] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-08-26 20:24:42.451] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-08-26 20:24:42.452] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","Added account: 12181438871"]
+[2023-08-26 20:24:42.473] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 1141082237102735430 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-26 20:24:42.478] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-c.discord.gg"]
+[2023-08-26 20:24:42.488] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 707ms"]
+[2023-08-26 20:24:42.489] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-26 20:24:42.793] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1141082237102735430 isBefore:false isAfter:false"]
+[2023-08-26 20:24:42.972] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","Updated account access token: 12181438871"]
+[2023-08-26 20:24:43.293] [5041] (discord.cpp:666): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 279.29999999981374ms"]
+[2023-08-26 20:24:43.423] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","WS Connected"]
+[2023-08-26 20:24:43.504] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","Devices updated for 12181438871:",""]
+[2023-08-26 20:24:43.536] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","Profile updated for 12181438871: isPremium = true"]
+[2023-08-26 20:24:43.941] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 842939600435281921 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-26 20:24:44.203] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 842939600435281921 isBefore:false isAfter:false"]
+[2023-08-26 20:24:44.512] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:24:44.577] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:24:44.627] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:24:44.795] [5072] (engine.cpp:744): Engine::SetClipBufferLength(0)
+[2023-08-26 20:24:44.959] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:24:45.176] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:24:45.276] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:24:45.337] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:24:45.396] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:24:45.527] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:24:45.546] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:24:54.784] [5041] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-08-26 20:24:54.855] [5041] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Server revision: 126, Client revision: 126"]
+[2023-08-26 20:24:57.231] [5041] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1140742278122586123/1141082237102735430"]
+[2023-08-26 20:25:06.473] [5041] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is us-central"]
+[2023-08-26 20:25:43.468] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:43.931] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:44.334] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:25:58.136] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:58.195] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:58.306] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:58.319] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:25:59.629] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:59.696] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:59.791] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:59.830] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:59.867] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:25:59.937] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:00.007] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:00.102] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:00.114] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:26:05.676] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:05.721] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:05.855] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:05.994] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:06.104] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:06.165] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:08.769] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:08.810] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:08.960] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:08.970] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.061] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.173] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.235] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.299] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.392] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.577] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.646] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.695] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.802] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:09.966] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:10.055] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:10.187] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:10.230] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:10.348] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:10.376] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:10.386] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:26:18.137] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.231] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.245] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.330] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.493] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.548] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.687] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.764] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.801] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.900] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:18.957] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:19.024] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:19.095] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:19.372] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:26:19.607] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:19.632] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:19.777] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:19.832] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:19.917] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:19.964] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:20.125] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:20.371] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:20.415] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:20.450] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:20.604] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:20.658] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:20.742] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:20.753] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:26:25.779] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:25.849] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:25.903] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:25.956] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:26.172] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:26.519] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:26.592] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:26.695] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:26.803] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:26.913] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.057] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.159] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.342] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.444] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.453] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.541] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.580] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.699] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.782] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:26:27.793] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:27:05.150] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:05.184] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:05.300] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:05.312] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:05.379] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:05.405] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:27:06.117] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:07.909] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:07.970] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:08.157] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:08.187] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:27:32.319] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:32.421] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:32.472] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:32.603] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:32.738] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:32.865] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:32.966] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:33.061] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:33.154] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:33.248] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:33.343] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:33.491] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:33.519] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:33.694] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:33.915] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:34.056] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:34.068] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:27:41.669] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:41.730] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:41.916] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:27:41.929] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:28:56.400] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:56.450] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:56.551] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:56.713] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:56.879] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:56.975] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:57.017] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:57.102] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:57.188] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:57.255] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:57.341] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:57.430] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:57.505] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:28:57.519] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:31:43.054] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:31:43.111] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:31:43.582] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:31:43.596] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:53:29.844] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:29.893] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:29.982] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:30.068] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:30.192] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:30.282] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:30.495] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:30.904] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:31.097] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:31.317] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:31.394] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:31.759] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:31.882] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.025] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.047] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.143] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.274] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.343] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.492] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.560] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.620] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.668] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.740] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:32.752] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:53:36.317] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:36.656] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:36.751] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:36.771] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:36.858] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:37.012] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:37.110] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:37.266] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:37.384] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:37.578] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:37.775] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:37.823] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:37.940] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:37.978] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:38.140] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:38.203] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:38.237] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:38.319] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:38.539] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:38.628] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:38.921] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:38.991] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:39.091] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:39.104] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 20:53:43.521] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:43.848] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 20:53:44.163] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 21:00:07.267] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 21:10:11.652] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-26 21:38:25.971] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: power monitor resumed"]
+[2023-08-26 21:38:30.977] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-26 21:38:30.977] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 1.71 seconds."]
+[2023-08-26 21:38:31.102] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Connection has reset backoff for reason: network detected online."]
+[2023-08-26 21:38:31.103] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-26 21:38:31.103] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-26 21:38:31.103] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-26 21:38:31.282] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 179 ms"]
+[2023-08-26 21:38:31.283] [5041] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-08-26 21:38:31.283] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-08-26 21:38:31.283] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-08-26 21:38:31.288] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-zg3l: 0, heartbeat interval: 41250, took 184 ms"]
+[2023-08-26 21:38:31.783] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 680ms, as 6a5b030117375c718accd56a0a4940e4 via \ngateway-prd-us-east1-c-zg3l: 326.448\n|  id_created: 2.143\n|  session_lookup_time: 0.424\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-293: 317.699\n|  |  start_session: 252.426\n|  |  |  discord-api-995687fdb-h89nc: 233.28\n|  |  |  |  get_user: 21.144\n|  |  |  |  get_guilds: 34.146\n|  |  |  |  user_settings_proto: 0.143\n|  |  |  |  relationships: 104.809\n|  |  |  |  friend_suggestion: 0.07\n|  |  |  |  connections: 0.193\n|  |  |  |  serialized_read_states: 0.045\n|  |  |  |  pending_payments: 0.003\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.001\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.003\n|  |  |  |  user_guild_settings: 0.002\n|  |  |  |  serialized_private_channels: 0.002\n|  |  |  |  user_segments: 0.002\n|  |  |  |  experiments: 19.309\n|  |  |  |  affine_user_ids: 31.476\n|  |  |  |  required_action: 0.007\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.095\n|  |  presence_started: 10.971\n|  |  guilds_started: 1.013\n|  |  guilds_connect: 46.488\n|  |  presence_connect: 0.001\n|  |  connect_finished: 46.508\n|  |  build_ready: 4.753\n|  |  clean_ready: 0.002\n|  |  optimize_ready: 1.864\n|  |  split_ready: 0.064"]
+[2023-08-26 21:38:31.783] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-26 21:38:31.799] [5041] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-08-26 21:38:31.799] [5041] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-08-26 21:38:31.800] [5041] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 468557129284845579, database: null)"]
+[2023-08-26 21:38:31.800] [5041] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (468557129284845579 → null)"]
+[2023-08-26 21:38:31.814] [5041] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-08-26 21:38:31.849] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 842939600435281921 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-26 21:38:31.864] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-c.discord.gg"]
+[2023-08-26 21:38:31.873] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 770ms"]
+[2023-08-26 21:38:31.873] [5041] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-26 21:38:32.031] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 842939600435281921 isBefore:false isAfter:false"]
+[2023-08-26 21:38:34.082] [5072] (engine.cpp:744): Engine::SetClipBufferLength(0)
+[2023-08-26 21:38:40.197] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 1346ms"]
+[2023-08-26 21:38:41.539] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-08-26 21:38:41.863] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","Updated account access token: 12181438871"]
+[2023-08-26 21:38:41.998] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","WS Connected"]
+[2023-08-26 21:38:42.045] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","Devices updated for 12181438871:",""]
+[2023-08-26 21:38:42.076] [5041] (discord.cpp:666): JS console: ["%c[Spotify]","Profile updated for 12181438871: isPremium = true"]
+[2023-08-26 21:38:47.928] [5041] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is us-central"]
+[2023-08-26 22:01:17.631] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:17.747] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:17.782] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:17.839] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:17.897] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:20.749] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:20.761] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 22:01:24.853] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:24.972] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:25.073] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:25.105] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:25.260] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:25.354] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:25.551] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:25.561] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 22:01:35.899] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:35.945] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:36.080] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:36.129] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:36.343] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:01:36.354] [5041] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-26 22:02:55.702] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:05:40.839] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:06:37.277] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:38:27.316] [5041] (discord.cpp:666): JS console: ["%c[InventoryUtils]","maybeGetPacks, trigger point: autocomplete packs experiment not enabled"]
+[2023-08-26 22:38:29.037] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 1141082237102735430 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-26 22:38:29.166] [5041] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1140742278122586123/1141082237102735430"]
+[2023-08-26 22:38:29.450] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1141082237102735430 isBefore:false isAfter:false"]
+[2023-08-26 22:38:32.740] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 775928172574933056 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-26 22:38:32.879] [5041] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/775928172574933053/775928172574933056"]
+[2023-08-26 22:38:32.978] [5041] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 775928172574933056 isBefore:false isAfter:false"]
+[2023-08-26 22:38:45.102] [5041] (discord.cpp:666): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload3"]
+[2023-08-26 22:38:45.286] [5041] (discord.cpp:666): JS console: ["%c[CloudUpload.tsx]","Uploading upload3"]
+[2023-08-26 22:38:45.840] [5041] (discord.cpp:666): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 10697515 bytes and 1 attachments for Uploader5"]
+[2023-08-26 22:38:46.507] [5041] (discord.cpp:666): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload3"]
+[2023-08-26 22:38:47.179] [5041] (discord.cpp:666): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader5"]

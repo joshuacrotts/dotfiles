@@ -1,0 +1,244 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Example" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Convert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/NamePrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding>
+                <element signature="e#71#72#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ConvertTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="6" lastUsed="1692713537038" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/ConvertTest.java" />
+      <option value="$PROJECT_DIR$/src/Convert.java" />
+      <option value="$PROJECT_DIR$/src/NamePrinter.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="6" lastUsage="1692713537038" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/joshuacrotts/files/programming/java/Example}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/joshuacrotts/files/programming/java/Example}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/joshuacrotts/files/programming/java/Example/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Application.NamePrinter" />
+      <element setting="JUnit.ConvertTest" />
+    </history>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConvertTest - 2023.08.21 at 10h 46m 59s.xml">
+      <configuration name="ConvertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertTest - 2023.08.21 at 10h 47m 49s.xml">
+      <configuration name="ConvertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertTest - 2023.08.21 at 10h 48m 30s.xml">
+      <configuration name="ConvertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertTest - 2023.08.21 at 10h 48m 41s.xml">
+      <configuration name="ConvertTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="398000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16261905" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.33026317" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.33026317" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.33026317" left="0.16261905" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Build</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2347" y="0" width="1540" height="1200" key="#Project_Structure" timestamp="1692628993107">
+      <screen x="2160" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2347" y="0" width="1540" height="1200" key="#Project_Structure/0.0.2160.1350/2160.0.1920.1200@2160.0.1920.1200" timestamp="1692628993107" />
+    <state x="748" y="298" width="658" height="728" key="FileChooserDialogImpl" timestamp="1692713568544">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state x="748" y="298" width="658" height="728" key="FileChooserDialogImpl/0.0.2160.1350@0.0.2160.1350" timestamp="1692713568544" />
+    <state width="1736" height="313" key="GridCell.Tab.0.bottom" timestamp="1692629354181">
+      <screen x="2160" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1736" height="313" key="GridCell.Tab.0.bottom/0.0.2160.1350/2160.0.1920.1200@2160.0.1920.1200" timestamp="1692629354181" />
+    <state width="1736" height="313" key="GridCell.Tab.0.center" timestamp="1692629354181">
+      <screen x="2160" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1736" height="313" key="GridCell.Tab.0.center/0.0.2160.1350/2160.0.1920.1200@2160.0.1920.1200" timestamp="1692629354181" />
+    <state width="1736" height="313" key="GridCell.Tab.0.left" timestamp="1692629354181">
+      <screen x="2160" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1736" height="313" key="GridCell.Tab.0.left/0.0.2160.1350/2160.0.1920.1200@2160.0.1920.1200" timestamp="1692629354181" />
+    <state width="1736" height="313" key="GridCell.Tab.0.right" timestamp="1692629354181">
+      <screen x="2160" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1736" height="313" key="GridCell.Tab.0.right/0.0.2160.1350/2160.0.1920.1200@2160.0.1920.1200" timestamp="1692629354181" />
+    <state x="2654" y="450" width="925" height="326" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1692629092219">
+      <screen x="2160" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2654" y="450" width="925" height="326" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2160.1350/2160.0.1920.1200@2160.0.1920.1200" timestamp="1692629092219" />
+    <state x="2775" y="309" width="684" height="585" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1692629050134">
+      <screen x="2160" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2775" y="309" width="684" height="585" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2160.1350/2160.0.1920.1200@2160.0.1920.1200" timestamp="1692629050134" />
+    <state x="680" y="303" width="800" height="789" key="new project wizard" timestamp="1692713571731">
+      <screen x="0" y="0" width="2160" height="1350" />
+    </state>
+    <state x="680" y="303" width="800" height="789" key="new project wizard/0.0.2160.1350@0.0.2160.1350" timestamp="1692713571731" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConvertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NamePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Example</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

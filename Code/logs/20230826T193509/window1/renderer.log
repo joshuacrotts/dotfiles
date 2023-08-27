@@ -1,0 +1,17 @@
+2023-08-26 19:35:10.332 [error] Extension 'github.copilot' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): inlineCompletionsAdditions, terminalDataWriteEvent
+product.json (WINS): inlineCompletionsAdditions
+2023-08-26 19:35:10.346 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-08-26 19:35:12.961 [info] [perf] Render performance baseline is 26ms
+2023-08-26 22:40:11.839 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-08-26 22:40:12.838 [error] [Extension Host] Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:506:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-08-26 22:40:12.839 [error] [Extension Host] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/out/bootstrap.js:1:419)
+    at process.emit (node:events:513:28)
+2023-08-26 22:40:13.840 [error] spawn git ENOENT: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:506:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)

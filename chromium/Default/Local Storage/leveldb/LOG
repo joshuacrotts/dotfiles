@@ -1,0 +1,6 @@
+2023/08/25-13:08:48.518 3 Reusing MANIFEST /home/joshuacrotts/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/08/25-13:08:48.519 3 Recovering log #10
+2023/08/25-13:08:48.519 3 Reusing old log /home/joshuacrotts/.config/chromium/Default/Local Storage/leveldb/000010.log 
+2023/08/25-13:32:17.422 5 Level-0 table #13: started
+2023/08/25-13:32:17.435 5 Level-0 table #13: 22465 bytes OK
+2023/08/25-13:32:17.436 5 Delete type=0 #10

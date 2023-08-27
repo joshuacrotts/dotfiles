@@ -1,0 +1,60 @@
+2023-08-27 14:11:21.980 [info] Log level: Info
+2023-08-27 14:11:21.980 [info] Validating found git in: "git"
+2023-08-27 14:11:21.980 [info] Using git "2.42.0" from "git"
+2023-08-27 14:11:21.980 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:21.980 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-08-27 14:11:21.980 [info] Open repository: /home/joshuacrotts/files/programming/pocs
+2023-08-27 14:11:21.980 [info] > git config --get commit.template [8ms]
+2023-08-27 14:11:21.980 [info] > git rev-parse --show-toplevel [14ms]
+2023-08-27 14:11:21.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-08-27 14:11:21.986 [info] > git rev-parse --show-toplevel [6ms]
+2023-08-27 14:11:22.017 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:22.021 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:22.025 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:22.029 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:22.033 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:22.038 [info] > git rev-parse --show-toplevel [0ms]
+2023-08-27 14:11:22.042 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:22.049 [info] > git rev-parse --show-toplevel [3ms]
+2023-08-27 14:11:22.173 [info] > git rev-parse --show-toplevel [119ms]
+2023-08-27 14:11:22.652 [info] > git status -z -uall [667ms]
+2023-08-27 14:11:22.652 [info] > git check-ignore -v -z --stdin [2ms]
+2023-08-27 14:11:22.684 [info] > git config --get commit.template [7ms]
+2023-08-27 14:11:22.697 [info] > git rev-parse --show-toplevel [6ms]
+2023-08-27 14:11:22.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2023-08-27 14:11:22.734 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-27 14:11:22.741 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:22.746 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:22.752 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-27 14:11:22.760 [info] > git rev-parse --show-toplevel [4ms]
+2023-08-27 14:11:22.886 [info] > git rev-parse --show-toplevel [122ms]
+2023-08-27 14:11:23.100 [info] > git status -z -uall [389ms]
+2023-08-27 14:11:43.750 [info] Log level: Info
+2023-08-27 14:11:43.750 [info] Validating found git in: "git"
+2023-08-27 14:11:43.750 [info] Using git "2.42.0" from "git"
+2023-08-27 14:11:43.753 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:43.759 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:43.773 [info] > git rev-parse --show-toplevel [0ms]
+2023-08-27 14:11:44.453 [info] > git rev-parse --show-toplevel [26ms]
+2023-08-27 14:11:44.459 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:11:44.465 [info] > git rev-parse --show-toplevel [0ms]
+2023-08-27 14:11:44.471 [info] > git rev-parse --show-toplevel [0ms]
+2023-08-27 14:21:02.041 [info] > git rev-parse --show-toplevel [27ms]
+2023-08-27 14:32:30.413 [info] Log level: Info
+2023-08-27 14:32:30.413 [info] Validating found git in: "git"
+2023-08-27 14:32:30.413 [info] Using git "2.42.0" from "git"
+2023-08-27 14:32:30.413 [info] > git rev-parse --show-toplevel [425ms]
+2023-08-27 14:32:30.427 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-08-27 14:32:30.435 [info] Open repository: /home/joshuacrotts/files/college/iu/fall-2023/p523/racket-compiler
+2023-08-27 14:32:30.453 [info] > git config --get commit.template [8ms]
+2023-08-27 14:32:30.456 [info] > git rev-parse --show-toplevel [4ms]
+2023-08-27 14:32:30.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/joshua refs/remotes/joshua [1ms]
+2023-08-27 14:32:30.480 [info] > git status -z -uall [8ms]
+2023-08-27 14:32:30.480 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 14:32:30.497 [info] > git config --get commit.template [3ms]
+2023-08-27 14:32:30.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/joshua refs/remotes/joshua [2ms]
+2023-08-27 14:32:30.517 [info] > git status -z -uall [4ms]
+2023-08-27 14:32:30.969 [info] > git check-ignore -v -z --stdin [2ms]
+2023-08-27 14:32:33.918 [info] > git show --textconv :compiler.rkt [10ms]
+2023-08-27 14:32:33.919 [info] > git ls-files --stage -- /home/joshuacrotts/files/college/iu/fall-2023/p523/racket-compiler/compiler.rkt [2ms]
+2023-08-27 14:32:33.928 [info] > git cat-file -s 770a7923bd5db490dff9bf107647dbedfbdff831 [1ms]

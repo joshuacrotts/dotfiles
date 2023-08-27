@@ -1,0 +1,936 @@
+2023-08-25 00:53:42.9660000 [client] INFO Finding haskell-language-server
+2023-08-25 00:53:42.9670000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:42.9730000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:42.9730000 [client] INFO Executing 'ghcup --no-verbose upgrade' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.4360000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:43.4420000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:43.4420000 [client] INFO Executing 'ghcup --no-verbose list -t hls -c installed -r' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.4990000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:43.5050000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:43.5060000 [client] INFO Executing 'ghcup --no-verbose list -t cabal -c installed -r' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.5620000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:43.5670000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:43.5670000 [client] INFO Executing 'ghcup --no-verbose list -t stack -c installed -r' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.6290000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:43.6330000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:43.6340000 [client] INFO Executing 'ghcup --no-verbose whereis hls 2.1.0.0' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.6500000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:43.6570000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:43.6580000 [client] INFO Executing 'ghcup --no-verbose whereis cabal 3.6.2.0' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.6730000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:43.6780000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:43.6790000 [client] INFO Executing 'ghcup --no-verbose whereis stack 2.11.1' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.7060000 [client] INFO Executing 'ghc --numeric-version' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.7420000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:43.7470000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:43.7480000 [client] INFO Executing 'ghcup --no-verbose run --hls 2.1.0.0 --cabal 3.6.2.0 --stack 2.11.1 --install' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.8140000 [client] INFO Working out the project GHC version. This might take a while...
+2023-08-25 00:53:43.8140000 [client] INFO Executing 'haskell-language-server-wrapper --project-ghc-version' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:43.8630000 [client] INFO The GHC version for the project or file: 9.4.6
+2023-08-25 00:53:44.0340000 [client] INFO Platform constants: Linux_UnknownLinux, A_64
+2023-08-25 00:53:44.0350000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:44.0430000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:44.0440000 [client] INFO Executing 'ghcup --no-verbose list -t hls -c installed -r' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:44.1010000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:44.1070000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:44.1080000 [client] INFO Executing 'ghcup --no-verbose whereis bindir' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:44.1260000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:44.1310000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:44.1310000 [client] INFO Executing 'ghcup --no-verbose whereis hls 2.1.0.0' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:44.1470000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:44.1570000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:44.1580000 [client] INFO Executing 'ghcup --no-verbose whereis ghc 9.4.6' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:44.1770000 [client] INFO Checking for ghcup installation
+2023-08-25 00:53:44.1830000 [client] INFO found ghcup at ghcup
+2023-08-25 00:53:44.1830000 [client] INFO Executing 'ghcup --no-verbose run --hls 2.1.0.0 --cabal 3.6.2.0 --stack 2.11.1 --ghc 9.4.6 --install' in cwd '/home/joshuacrotts/files/college/iu/fall-2023/p424/0824'
+2023-08-25 00:53:44.2520000 [client] INFO Activating the language server in working dir: /home/joshuacrotts/files/college/iu/fall-2023/p424/0824 (the workspace folder)
+2023-08-25 00:53:44.2520000 [client] INFO run command: /home/joshuacrotts/.ghcup/tmp/ghcup-ghc-9.4.6_cabal-3.6.2.0_hls-2.1.0.0_stack-2.11.1/haskell-language-server-wrapper --lsp
+2023-08-25 00:53:44.2520000 [client] INFO debug command: /home/joshuacrotts/.ghcup/tmp/ghcup-ghc-9.4.6_cabal-3.6.2.0_hls-2.1.0.0_stack-2.11.1/haskell-language-server-wrapper --lsp
+2023-08-25 00:53:44.2520000 [client] INFO server environment variables:
+2023-08-25 00:53:44.2520000 [client] INFO   PATH=/home/joshuacrotts/.ghcup/tmp/ghcup-ghc-9.4.6_cabal-3.6.2.0_hls-2.1.0.0_stack-2.11.1:/home/joshuacrotts/.cabal/bin:/home/joshuacrotts/.ghcup/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2023-08-25 00:53:44.2560000 [client] INFO Starting language server
+No 'hie.yaml' found. Try to discover the project type!
+Run entered for haskell-language-server-wrapper(haskell-language-server-wrapper) Version 2.1.0.0 x86_64 ghc-8.10.7
+Current directory: /home/joshuacrotts/files/college/iu/fall-2023/p424/0824
+Operating system: linux
+Arguments: ["--lsp"]
+Cradle directory: /home/joshuacrotts/files/college/iu/fall-2023/p424/0824
+Cradle type: Default
+
+Tool versions found on the $PATH
+cabal:          3.6.2.0
+stack:          2.11.1
+ghc:            9.4.6
+
+
+Consulting the cradle to get project GHC version...
+2023-08-25T00:53:44.321078Z | Debug | executing command: ghc --numeric-version
+Project GHC version: 9.4.6
+haskell-language-server exe candidates: ["haskell-language-server-9.4.6","haskell-language-server"]
+Launching haskell-language-server exe at:/home/joshuacrotts/.ghcup/tmp/ghcup-ghc-9.4.6_cabal-3.6.2.0_hls-2.1.0.0_stack-2.11.1/haskell-language-server-9.4.6
+2023-08-25T00:53:44.351720Z | Debug | executing command: ghc -v0 -package-env=- -ignore-dot-ghci -e Control.Monad.join (Control.Monad.fmap System.IO.putStr System.Environment.getExecutablePath)
+2023-08-25T00:53:44.433890Z | Debug | executing command: ghc --print-libdir
+2023-08-25T00:53:45.936268Z | Info | haskell-language-server version: 2.1.0.0 (GHC: 9.4.6) (PATH: /home/joshuacrotts/.ghcup/hls/2.1.0.0/lib/haskell-language-server-2.1.0.0/bin/haskell-language-server-9.4.6)
+2023-08-25T00:53:45.938373Z | Info | Directory: /home/joshuacrotts/files/college/iu/fall-2023/p424/0824
+2023-08-25T00:53:45.938589Z | Info | Starting (haskell-language-server) LSP server...
+  GhcideArguments {argsCommand = LSP, argsCwd = Nothing, argsShakeProfiling = Nothing, argsTesting = False, argsExamplePlugin = False, argsLogLevel = Info, argsLogFile = Nothing, argsLogStderr = True, argsLogClient = False, argsThreads = 0, argsProjectGhcVersion = False}
+  PluginIds: [ pragmas-suggest
+             , pragmas-completion
+             , retrie
+             , ghcide-completions
+             , alternateNumberFormat
+             , ghcide-code-actions-bindings
+             , explicit-fields
+             , ghcide-hover-and-symbols
+             , ghcide-code-actions-type-signatures
+             , floskell
+             , fourmolu
+             , ghcide-extend-import-action
+             , ghcide-code-actions-fill-holes
+             , importLens
+             , LSPRecorderCallback
+             , cabal
+             , qualifyImportedNames
+             , moduleName
+             , splice
+             , stylish-haskell
+             , changeTypeSignature
+             , hlint
+             , class
+             , ormolu
+             , callHierarchy
+             , ghcide-type-lenses
+             , codeRange
+             , cabal-fmt
+             , eval
+             , rename
+             , ghcide-code-actions-imports-exports
+             , gadt
+             , overloaded-record-dot
+             , ghcide-core
+             , explicit-fixity
+             , pragmas-disable ]
+2023-08-25T00:53:45.940739Z | Info | Logging heap statistics every 60.00s
+ 2023-08-25T00:53:45.945543Z | Info | Starting LSP server...
+  If you are seeing this in a terminal, you probably should have run WITHOUT the --lsp option!
+  PluginIds: [ pragmas-suggest
+             , pragmas-completion
+             , retrie
+             , ghcide-completions
+             , alternateNumberFormat
+             , ghcide-code-actions-bindings
+             , explicit-fields
+             , ghcide-hover-and-symbols
+             , ghcide-code-actions-type-signatures
+             , floskell
+             , fourmolu
+             , ghcide-extend-import-action
+             , ghcide-code-actions-fill-holes
+             , importLens
+             , LSPRecorderCallback
+             , cabal
+             , qualifyImportedNames
+             , moduleName
+             , splice
+             , stylish-haskell
+             , changeTypeSignature
+             , hlint
+             , class
+             , ormolu
+             , callHierarchy
+             , ghcide-type-lenses
+             , codeRange
+             , cabal-fmt
+             , eval
+             , rename
+             , ghcide-code-actions-imports-exports
+             , gadt
+             , overloaded-record-dot
+             , ghcide-core
+             , explicit-fixity
+             , pragmas-disable ]
+2023-08-25T00:53:45.945797Z | Info | Starting server
+2023-08-25T00:53:45.964830Z | Info | Started LSP server in 0.02s
+2023-08-25T00:53:46.002596Z | Info | Registering IDE configuration: IdeConfiguration {workspaceFolders = fromList [NormalizedUri 4803639158242809720 "file:///home/joshuacrotts/files/college/iu/fall-2023/p424/0824"], clientSettings = hashed Nothing}
+2023-08-25T00:53:46.022818Z | Info | Cradle path: remove-dups.hs
+2023-08-25T00:53:46.022979Z | Warning | No [cradle](https://github.com/mpickering/hie-bios#hie-bios) found for remove-dups.hs.
+Proceeding with [implicit cradle](https://hackage.haskell.org/package/implicit-hie).
+You should ignore this message, unless you see a 'Multi Cradle: No prefixes matched' error.
+2023-08-25T00:53:46.026857Z | Info | invoking build tool to determine build flags (this may take some time depending on the cache)
+2023-08-25T00:53:46.086005Z | Info | Interface files cache directory: /home/joshuacrotts/.cache/ghcide/main-1a596a151463f2c53ee4feb14ecd276a1ccebfda-1a596a151463f2c53ee4feb14ecd276a1ccebfda
+2023-08-25T00:53:46.086734Z | Info | Making new HscEnv. In-place unit ids: [ main-1a596a151463f2c53ee4feb14ecd276a1ccebfda ]
+2023-08-25T00:53:46.316993Z | Warning | codeRange: no HieAst exist for file
+[Error - 8:53:46 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:53:56 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:01 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:01 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:54:02.265095Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:02 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:54:03 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:03 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:54:04.109990Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:04 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:54:04 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:05 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:05 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:06 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:07 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:54:07.669820Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:07 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:54:08 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:08 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:09 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:54:09.804694Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:09 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:10.060685Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:10 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:10.620085Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:10 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:54:10 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:54:11 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:54:21.994611Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/joshuacrotts/files/college/iu/fall-2023/p424/0824/remove-dups.hs": [  ]
+2023-08-25T00:54:33.738553Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:33 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:33.993793Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:33 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:34.024974Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:34 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:34.098729Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:34 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:34.272979Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:34 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:34.375630Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:34 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:54:34 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:54:35.665607Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:35 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:35.746357Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:35 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:35.780029Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:35 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:35.885967Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:35 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:35.991269Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:35 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:36.085970Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:36 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:36.113099Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:54:36 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:54:36.876093Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/joshuacrotts/files/college/iu/fall-2023/p424/0824/remove-dups.hs": [  ]
+2023-08-25T00:54:38.744031Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/joshuacrotts/files/college/iu/fall-2023/p424/0824/remove-dups.hs": [  ]
+2023-08-25T00:54:45.947895Z | Info | Live bytes: 198.07MB Heap size: 871.37MB
+[Error - 8:55:05 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:09 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:10 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:11 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:13 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:14 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:14 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:55:14.723000Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:55:14 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:55:14.753520Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:55:14 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:55:15 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:17 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:44 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:45 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:55:45.949139Z | Info | Live bytes: 195.54MB Heap size: 871.37MB
+[Error - 8:55:46 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:47 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:48 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:49 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:52 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:53 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:55 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:56 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:55:57 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:00 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:01.491450Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:01 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:56:04 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:31.941891Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:31 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:32.005669Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:32 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:32.026265Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:32 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:56:32 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:32.521695Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:32 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:32.740248Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:32 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:33.139653Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:33 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:56:34 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:35 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:35 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:35.885776Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:35 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:56:36 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:38 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:38 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:41 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:41 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:42.120374Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:42 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:42.168360Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:42 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:42.241840Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:42 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:56:42 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:43 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:43 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:45.952161Z | Info | Live bytes: 197.45MB Heap size: 871.37MB
+[Error - 8:56:49 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:50 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:50.241183Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:50 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:50.301989Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:50 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:50.340612Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:50 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:56:50 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:51 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:56:51 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:53.361014Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:53 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:53.453762Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:53 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:56:53 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:53.850165Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:53 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:56:54.000125Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:54 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:56:54 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:56:59.049372Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:56:59 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:56:59 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:00 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:57:01.240405Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:01 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:57:01.316922Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:01 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:57:01.426070Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:01 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:57:01.661504Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:01 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:57:01 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:02 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:05 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:08 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:08 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:11 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:57:11.404570Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:11 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:57:11.498339Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:11 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:57:11 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:57:16.004480Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:16 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:57:16.103932Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:16 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:57:16 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:17 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:17 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:18 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:18 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:27 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:28 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:57:30.019935Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:30 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:57:30 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:31 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:57:32.016728Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:32 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:57:32.036480Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:32 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:57:32 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:34 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:57:34.950878Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:34 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:57:35 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:35 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:36 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:43 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:43 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:57:44.185353Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:57:44 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:57:44 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:57:45.954408Z | Info | Live bytes: 197.37MB Heap size: 871.37MB
+[Error - 8:57:47 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:57:48 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:58:13.456888Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/joshuacrotts/files/college/iu/fall-2023/p424/0824/remove-dups.hs": [  ]
+2023-08-25T00:58:17.036086Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/joshuacrotts/files/college/iu/fall-2023/p424/0824/remove-dups.hs": [  ]
+2023-08-25T00:58:45.974480Z | Info | Live bytes: 204.03MB Heap size: 871.37MB
+2023-08-25T00:58:47.544600Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:47 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:47.587510Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:47 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:47.637467Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:47 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:58:49 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:58:49.482405Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:49 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:49.539761Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:49 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:49.563652Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:49 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:50.271309Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:50 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:50.365809Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:50 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:50.463885Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:50 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:50.866545Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:50 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:50.976043Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:50 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:51.014776Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:51 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:58:51 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:58:51.342501Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:51 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:51.563288Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:51 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:58:53 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:58:54.302620Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:54 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:54.355784Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:54 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:58:54 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:58:54.883509Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:54 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:58:55 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:58:55.893506Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:55 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:58:55.953380Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:58:55 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:58:56 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:00 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:59:03.121780Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:03 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:59:03.191473Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:03 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:59:03.294161Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:03 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:59:03.422384Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:03 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:59:03.462651Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:03 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:59:03 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:04 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:06 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:11 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:12 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:12 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:13 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:14 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:15 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:15 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:17 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:59:24.562714Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:24 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:59:24 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:28 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:29 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:29 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:59:30.373499Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:30 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:59:34 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:59:35.024671Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:35 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:59:36 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:37 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:37 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:38 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:59:38.942278Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:38 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:59:39 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:59:40.365306Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:40 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T00:59:41.106982Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 8:59:41 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 8:59:41 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:42 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 8:59:44 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T00:59:45.976128Z | Info | Live bytes: 209.19MB Heap size: 871.37MB
+2023-08-25T00:59:49.037603Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/joshuacrotts/files/college/iu/fall-2023/p424/0824/remove-dups.hs": [  ]
+2023-08-25T01:00:45.977141Z | Info | Live bytes: 209.19MB Heap size: 871.37MB
+2023-08-25T01:00:51.079618Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:00:51 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T01:00:51.178423Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:00:51 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T01:00:51.218105Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:00:51 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T01:00:51.572420Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:00:51 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T01:00:51.876943Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:00:51 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T01:00:51.967650Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:00:51 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 9:00:52 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T01:00:52.354444Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:00:52 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T01:00:52.528718Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:00:52 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+2023-08-25T01:00:52.595441Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:00:52 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 9:00:52 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+[Error - 9:00:56 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T01:00:56.520165Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/joshuacrotts/files/college/iu/fall-2023/p424/0824/remove-dups.hs": [  ]
+2023-08-25T01:01:07.000900Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/joshuacrotts/files/college/iu/fall-2023/p424/0824/remove-dups.hs": [  ]
+2023-08-25T01:01:45.981245Z | Info | Live bytes: 213.28MB Heap size: 871.37MB
+2023-08-25T01:02:46.041104Z | Info | Live bytes: 213.28MB Heap size: 871.37MB
+2023-08-25T01:03:03.336206Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:03:03 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 
+[Error - 9:03:03 PM] Request textDocument/foldingRange failed.
+  Message: codeRange: Rule Failed: GetCodeRange
+  Code: -32803 
+2023-08-25T01:03:04.806745Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/joshuacrotts/files/college/iu/fall-2023/p424/0824/remove-dups.hs": [  ]
+2023-08-25T01:03:46.051074Z | Info | Live bytes: 213.28MB Heap size: 871.37MB
+2023-08-25T01:04:46.091219Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:05:46.151183Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:06:46.211029Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:07:46.270934Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:08:46.330976Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:09:46.390942Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:10:46.450941Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:11:46.511041Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:12:47.015145Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:13:47.075099Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:14:47.135101Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:15:47.195243Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:16:47.255180Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:17:47.315080Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:18:47.375056Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:19:47.435409Z | Info | Live bytes: 216.85MB Heap size: 871.37MB
+2023-08-25T01:20:05.234988Z | Warning | No plugin enabled for SMethod_CompletionItemResolve
+[Error - 9:20:05 PM] Request completionItem/resolve failed.
+  Message: No plugin enabled for SMethod_CompletionItemResolve, potentially available: ghcide-completions
+  Code: -32601 

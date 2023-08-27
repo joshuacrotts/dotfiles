@@ -1,0 +1,5 @@
+{
+    "editor.fontFamily": "'Sarasa Mono SC Nerd', 'Sarasa Term SC Nerd', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 20,
+    "haskell.manageHLS": "GHCup"
+}

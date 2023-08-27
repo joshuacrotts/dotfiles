@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "'Sarasa Mono SC Nerd', 'Sarasa Term SC Nerd', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 20,
+    "haskell.manageHLS": "GHCup",
+    "workbench.settings.applyToAllProfiles": [
+        
+    ],
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
+}

@@ -1,0 +1,7 @@
+(include "stdlib.scm")
+
+(define-macro (for/list id iter body)
+  (map (lambda (id) body) iter))
+
+(printf "~a~n" (for/list i '(1 2 3 4) (* i i)))
+(printf "~a" (for/list k '(64 81 100 121 144 169) (sqrt k)))
